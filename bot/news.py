@@ -46,6 +46,8 @@ MAX_TRIAGE = 150        # newest candidates sent to triage per run
 MAX_DIGEST = 8          # items per digest
 MIN_RELEVANCE = 2       # 0-3 scale
 TEXT_LIMIT = 12000      # characters of article text sent to the writer
+DIGEST_POOL_DAYS = 14   # digest only considers items first seen within this window
+ALERT_MAX_AGE_DAYS = 3  # alerts only for items published within this window
 
 SYSTEM_PROMPT = """You help a UK research consultancy that works on AI in education \
 (schools, further and higher education, edtech, policy and evidence) keep up with the news.
@@ -204,6 +206,16 @@ def collect(sources: dict) -> tuple[list[dict], list[str]]:
     return [dict(it, id=k) for k, it in unique.items()], errors
 
 
+def report_errors(errors: list[str]) -> None:
+    """Log source errors and, on GitHub Actions, show them on the run summary page."""
+    for err in errors:
+        print(f"source error: {err}", file=sys.stderr)
+    summary = os.environ.get("GITHUB_STEP_SUMMARY")
+    if errors and summary:
+        with open(summary, "a", encoding="utf-8") as fh:
+            fh.write("### Source errors\n" + "".join(f"- {e}\n" for e in errors))
+
+
 def article_text(item: dict) -> str:
     try:
         text = strip_html(http_get(item["link"]).text)
@@ -299,24 +311,27 @@ def build_message(kind: str, entries: list[tuple[dict, WriteUp | None]], today: 
         header = f"AI in education: digest for {today.strftime('%A %d %B %Y')}"
     blocks = [{"type": "header", "text": {"type": "plain_text", "text": header[:150]}}]
     for item, w in entries:
-        line = f"*<{item['link']}|{slack_escape(item['title'])}>*\n_{slack_escape(item['source'])}, {item['published']}_"
+        link = item["link"].replace("|", "%7C").replace("<", "%3C").replace(">", "%3E")
+        line = f"*<{link}|{slack_escape(item['title'][:250])}>*\n_{slack_escape(item['source'])}, {item['published']}_"
         if w and w.summary:
-            line += f"\n{slack_escape(w.summary)}"
+            line += f"\n{slack_escape(w.summary[:1500])}"
             if w.why_it_matters:
-                line += f"\n*Why it matters:* {slack_escape(w.why_it_matters)}"
-        blocks.append({"type": "section", "text": {"type": "mrkdwn", "text": line[:2900]}})
+                line += f"\n*Why it matters:* {slack_escape(w.why_it_matters[:600])}"
+        blocks.append({"type": "section", "text": {"type": "mrkdwn", "text": line}})
     blocks.append({"type": "context", "elements": [{"type": "mrkdwn",
-                   "text": "Summaries are written by Claude from the linked page. Always check the original."}]})
+                   "text": "Summaries are written by Claude from the linked page; \"why it matters\" is "
+                           "Claude's reading, not the source's. Always check the original."}]})
     return {"text": header, "blocks": blocks[:50]}
 
 
-def post(payload: dict, dry_run: bool) -> None:
-    url = os.environ.get("SLACK_WEBHOOK_URL", "")
-    if dry_run or not url:
+def post(payload: dict, dry_run: bool) -> bool:
+    """Post to Slack. Returns True only if the message really went out."""
+    if dry_run:
         print(json.dumps(payload, indent=1, ensure_ascii=False))
-        return
-    resp = requests.post(url, json=payload, timeout=20)
+        return False
+    resp = requests.post(os.environ["SLACK_WEBHOOK_URL"], json=payload, timeout=20)
     resp.raise_for_status()
+    return True
 
 
 def written_entries(client, picked: list[dict]) -> list[tuple[dict, WriteUp | None]]:
@@ -351,26 +366,28 @@ def main(argv: list[str] | None = None) -> int:
 
     today = now_london()
     sources = json.loads(SOURCES_PATH.read_text(encoding="utf-8"))
+    state = load_state()
+    if not args.fetch_only:
+        # The workflow fires twice (07:07 and 08:07 UTC) so one of them lands at 08:xx London
+        # in both GMT and BST. Only the first run at or after 08:00 London does the work.
+        if not args.force and (today.hour < RUN_HOUR or state.get("last_run_date") == today.date().isoformat()):
+            print("nothing to do at this hour")
+            return 0
+        if not os.environ.get("ANTHROPIC_API_KEY"):
+            print("ANTHROPIC_API_KEY is not set; skipping (bot not configured yet)")
+            return 0
+        if not args.dry_run and not os.environ.get("SLACK_WEBHOOK_URL"):
+            print("SLACK_WEBHOOK_URL is not set; skipping (bot not configured yet)")
+            return 0
+
     items, errors = collect(sources)
-    for err in errors:
-        print(f"source error: {err}", file=sys.stderr)
+    report_errors(errors)
     if args.fetch_only:
         by_src = {}
         for it in items:
             by_src[it["source"]] = by_src.get(it["source"], 0) + 1
         print(json.dumps(by_src, indent=1))
-        return 0
-
-    state = load_state()
-    # The workflow fires twice (07:07 and 08:07 UTC) so one of them lands at 08:xx London
-    # in both GMT and BST. Only the first run at or after 08:00 London does the work.
-    if not args.force:
-        if today.hour < RUN_HOUR or state.get("last_run_date") == today.date().isoformat():
-            print("nothing to do at this hour")
-            return 0
-    if not os.environ.get("ANTHROPIC_API_KEY"):
-        print("ANTHROPIC_API_KEY is not set; skipping (bot not configured yet)")
-        return 0
+        return 1 if errors else 0
     if len(errors) == len(sources["feeds"]) + len(sources.get("sitemaps", [])):
         print("every source failed", file=sys.stderr)
         return 1
@@ -380,40 +397,47 @@ def main(argv: list[str] | None = None) -> int:
     new = sorted((it for it in items if it["id"] not in state["items"]),
                  key=lambda it: it["published"], reverse=True)[:MAX_TRIAGE]
     scores = triage(client, new) if new else {}
+    if new and not scores:
+        print("triage returned nothing; nothing stored, next run retries", file=sys.stderr)
+        return 1
     date_str = today.date().isoformat()
     for it in new:
         s = scores.get(it["id"])
+        if s is None:  # not scored this time: leave it out of state so the next run retries it
+            continue
         state["items"][it["id"]] = {
             "link": it["link"], "title": it["title"], "snippet": it["snippet"], "source": it["source"],
             "tier": it["tier"], "published": it["published"], "first_seen": date_str,
-            "relevance": s.relevance if s else 0, "impact": s.impact if s else 0, "posted": False}
+            "relevance": s.relevance, "impact": s.impact, "posted": False}
 
     mode = pick_mode(args.mode, today)
     if mode == "digest":
+        fresh = (today - dt.timedelta(days=DIGEST_POOL_DAYS)).date().isoformat()
         pool = [dict(v, id=k) for k, v in state["items"].items()
-                if not v["posted"] and v["relevance"] >= MIN_RELEVANCE]
+                if not v["posted"] and v["relevance"] >= MIN_RELEVANCE and v["first_seen"] >= fresh]
         pool.sort(key=lambda v: (v["impact"], v["relevance"], v["published"]), reverse=True)
         picked = pool[:MAX_DIGEST]
         if picked:
-            post(build_message("digest", written_entries(client, picked), today.date()), args.dry_run)
-            if not args.dry_run:
+            if post(build_message("digest", written_entries(client, picked), today.date()), args.dry_run):
                 for it in picked:
                     state["items"][it["id"]]["posted"] = True
                 state["last_digest_date"] = date_str
         else:
             print("digest: nothing relevant since the last one")
     elif not bootstrap and state.get("last_alert_date") != date_str:
+        recent = (today - dt.timedelta(days=ALERT_MAX_AGE_DAYS)).date().isoformat()
         majors = [dict(state["items"][it["id"]], id=it["id"]) for it in new
-                  if state["items"][it["id"]]["impact"] >= 3
+                  if it["id"] in state["items"]
+                  and state["items"][it["id"]]["impact"] >= 3
                   and state["items"][it["id"]]["relevance"] >= 3
-                  and it["tier"] in ("official", "lab", "research")]
+                  and it["tier"] in ("official", "lab", "research")
+                  and it["published"] >= recent]
         for cand in sorted(majors, key=lambda v: v["published"], reverse=True)[:3]:
             cand["text"] = article_text(cand)
             check = confirm_urgent(client, cand)
             if check and check.urgent:
                 entries = written_entries(client, [cand])
-                post(build_message("alert", entries, today.date()), args.dry_run)
-                if not args.dry_run:
+                if post(build_message("alert", entries, today.date()), args.dry_run):
                     state["items"][cand["id"]]["posted"] = True
                     state["last_alert_date"] = date_str
                 break  # at most one alert per day

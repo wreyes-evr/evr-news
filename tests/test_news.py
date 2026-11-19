@@ -37,3 +37,31 @@ def test_build_message_without_summary_keeps_title_and_link():
     body = msg["blocks"][1]["text"]["text"]
     assert "https://example.org/a" in body and "Title &lt;x&gt;" in body
     assert len(msg["blocks"]) <= 50
+
+
+def test_dry_run_post_reports_not_posted(capsys):
+    assert news.post({"text": "x", "blocks": []}, dry_run=True) is False
+
+
+def test_missing_webhook_skips_without_touching_state(monkeypatch, tmp_path):
+    state = tmp_path / "seen.json"
+    monkeypatch.setattr(news, "STATE_PATH", state)
+    monkeypatch.setenv("ANTHROPIC_API_KEY", "x")
+    monkeypatch.delenv("SLACK_WEBHOOK_URL", raising=False)
+    monkeypatch.setattr(news, "collect", lambda s: (_ for _ in ()).throw(AssertionError("must not fetch")))
+    assert news.main(["--force"]) == 0
+    assert not state.exists()
+
+
+def test_failed_triage_stores_nothing(monkeypatch, tmp_path):
+    state = tmp_path / "seen.json"
+    monkeypatch.setattr(news, "STATE_PATH", state)
+    monkeypatch.setenv("ANTHROPIC_API_KEY", "x")
+    monkeypatch.setenv("SLACK_WEBHOOK_URL", "https://hooks.example/x")
+    item = {"id": "a" * 16, "link": "https://e.org/a", "title": "T", "snippet": "", "published": "2026-11-18",
+            "source": "DfE", "tier": "official"}
+    monkeypatch.setattr(news, "collect", lambda s: ([item], []))
+    monkeypatch.setattr(news, "ask", lambda *a, **k: None)
+    monkeypatch.setattr(news, "post", lambda *a, **k: (_ for _ in ()).throw(AssertionError("must not post")))
+    assert news.main(["--force", "--mode", "digest"]) == 1
+    assert not state.exists()
