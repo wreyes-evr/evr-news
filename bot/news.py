@@ -43,7 +43,7 @@ DIGEST_DAYS = {1, 4}    # Tuesday, Friday (Monday == 0)
 MAX_AGE_DAYS = 10       # ignore items published before this
 KEEP_DAYS = 90          # forget items first seen before this
 MAX_TRIAGE = 150        # newest candidates sent to triage per run
-MAX_DIGEST = 8          # items per digest
+MAX_CANDIDATES = 15     # top items the editor (Opus) chooses from for one digest
 MIN_RELEVANCE = 2       # 0-3 scale
 TEXT_LIMIT = 12000      # characters of article text sent to the writer
 DIGEST_POOL_DAYS = 14   # digest only considers items first seen within this window
@@ -238,15 +238,27 @@ class Triage(BaseModel):
     scores: list[Score]
 
 
-class WriteUp(BaseModel):
-    id: str
-    summary: str
-    why_it_matters: str
-    quote: str
+class Story(BaseModel):
+    item_ids: list[str]        # documents this story is built from (related items merged)
+    emoji: str                 # one emoji for the category
+    headline: str              # one line, actor + verb first
+    detail: str                # lead story only: one sentence of fact; empty for quick hits
+    why_it_matters: str        # lead story only; empty for quick hits
+    quote: str                 # verbatim support from one of the documents
+    quote_item_id: str
 
 
-class WriteUps(BaseModel):
-    items: list[WriteUp]
+class AlsoSeen(BaseModel):
+    item_id: str
+    label: str                 # 3-8 words
+
+
+class Digest(BaseModel):
+    intro: str                 # one friendly opening line, like a colleague posting
+    signoff: str               # very short closing line, may be empty
+    lead: Story
+    hits: list[Story]
+    also_seen: list[AlsoSeen]
 
 
 class UrgentCheck(BaseModel):
@@ -279,17 +291,77 @@ def triage(client, items: list[dict]) -> dict[str, Score]:
     return {s.id: s for s in (result.scores if result else []) if s.id in known}
 
 
-def write_up(client, items: list[dict]) -> dict[str, WriteUp]:
-    docs = "\n\n".join(f'<document id="{it["id"]}" source="{it["source"]}" title="{html.escape(it["title"])}">\n'
-                       f'{it["text"]}\n</document>' for it in items)
-    prompt = ("For each document, write:\n"
-              "- summary: 2-3 sentences on what it says, using only facts in the document;\n"
-              "- why_it_matters: one sentence on why it matters for AI in education;\n"
-              "- quote: one exact sentence or phrase (at least 8 words) copied verbatim from the document "
-              "that supports the summary.\n"
-              "If a document has too little text to summarise, leave summary empty.\n\n" + docs)
-    result = ask(client, WRITE_MODEL, prompt, WriteUps)
-    return {w.id: w for w in (result.items if result else [])}
+EDITOR_BRIEF = """You are the editor of a short Slack digest for researchers and consultants who work on \
+AI in education. Readers scan it in 20 seconds, so less is more.
+
+1. Merge documents about the same event into one story (list all their ids in item_ids).
+2. Pick the single most important story as the lead. Then pick {hits} quick hits at most, only \
+if they are genuinely worth a researcher's attention; fewer is better than padding.
+3. Prefer: new UK policy or regulation, new evidence, assessment and AI literacy, major moves that \
+change what schools or universities can do. Skip: procedural government data, product marketing \
+without evidence, opinion with nothing new, events.
+4. headline: one line, at most 20 words, actor and verb first, plain UK English, concrete numbers \
+when the document has them, no hype words (revolutionary, game-changing, groundbreaking).
+5. Lead only: detail = one sentence of fact; why_it_matters = one sentence on the consequence. \
+Quick hits: leave detail and why_it_matters empty.
+6. quote: an exact phrase of at least 8 words copied from one document (give its id in \
+quote_item_id) that supports the headline. Every number you write must appear in the documents.
+7. also_seen: up to 3 other stories worth a glance, as 3-8 word labels.
+8. emoji: one per story, by category: 🏛️ policy/regulation, 📝 assessment, 🔬 evidence/research, \
+🧠 AI literacy/skills, 🤖 AI labs/products, 🌍 international, 🎓 higher education.
+
+Voice: you are a well-read colleague sharing what caught your eye with the team, not a news \
+service. Warm, curious, a little wry, British understatement; never cheesy, salesy or breathless. \
+- intro: one line (max 25 words) that greets the team and names the thread of the week, e.g. \
+"Morning all ☕ Coursework and AI is the story of the week, and Ofqual isn't letting it go." \
+Today is {weekday}; a Friday intro may nod to the weekend. At most one emoji. No facts or numbers \
+that are not in the documents. \
+- headlines may carry a light touch of personality (a wry clause, a plain-spoken take) but stay accurate. \
+- signoff: a few words, optional (e.g. "Have a good weekend, all." on a Friday); may be empty. \
+Never use "dive in", "buckle up", "game-changer", "exciting times" or exclamation marks in a row."""
+
+NUMBER = re.compile(r"\d[\d,.]*\d|\d")
+
+
+def numbers_supported(text: str, sources: str) -> bool:
+    """Every number written by the model must appear in the source text."""
+    haystack = squash(sources).replace(",", "")
+    return all(n.replace(",", "").rstrip(".") in haystack for n in NUMBER.findall(text))
+
+
+def story_ok(story: Story, texts: dict[str, str]) -> bool:
+    ids = [i for i in story.item_ids if i in texts]
+    if not ids or story.quote_item_id not in texts:
+        return False
+    if not quote_found(story.quote, texts[story.quote_item_id]):
+        return False
+    written = " ".join([story.headline, story.detail, story.why_it_matters])
+    return numbers_supported(written, " ".join(texts[i] for i in ids))
+
+
+def write_digest(client, items: list[dict], hits: int = 3, today: dt.date | None = None) -> Digest | None:
+    docs = "\n\n".join(f'<document id="{it["id"]}" source="{it["source"]}" published="{it["published"]}" '
+                       f'title="{html.escape(it["title"])}">\n{it["text"][:4000]}\n</document>' for it in items)
+    weekday = (today or now_london().date()).strftime("%A")
+    prompt = EDITOR_BRIEF.format(hits=hits, weekday=weekday) + "\n\nDocuments:\n\n" + docs
+    digest = ask(client, WRITE_MODEL, prompt, Digest)
+    if digest is None:
+        return None
+    texts = {it["id"]: it["text"] for it in items}
+    stories = [s for s in [digest.lead, *digest.hits] if story_ok(s, texts)]
+    dropped = 1 + len(digest.hits) - len(stories)
+    if dropped:
+        print(f"warning: {dropped} story(ies) failed the quote/number check and were dropped", file=sys.stderr)
+    if not stories:
+        return None
+    lead = stories[0]
+    if lead is not digest.lead:  # promoted hit has no detail; keep it honest and short
+        lead = lead.model_copy(update={"detail": "", "why_it_matters": ""})
+    seen = [a for a in digest.also_seen if a.item_id in texts and numbers_supported(a.label, texts[a.item_id])]
+    all_text = " ".join(texts.values())
+    intro = digest.intro if numbers_supported(digest.intro, all_text) else ""
+    signoff = digest.signoff if numbers_supported(digest.signoff, all_text) else ""
+    return Digest(intro=intro, signoff=signoff, lead=lead, hits=stories[1:1 + hits], also_seen=seen[:3])
 
 
 def confirm_urgent(client, item: dict) -> UrgentCheck | None:
@@ -304,24 +376,49 @@ def confirm_urgent(client, item: dict) -> UrgentCheck | None:
 
 # ---------- Slack ----------
 
-def build_message(kind: str, entries: list[tuple[dict, WriteUp | None]], today: dt.date) -> dict:
-    if kind == "alert":
-        header = "Major news in AI and education"
-    else:
-        header = f"AI in education: digest for {today.strftime('%A %d %B %Y')}"
-    blocks = [{"type": "header", "text": {"type": "plain_text", "text": header[:150]}}]
-    for item, w in entries:
-        link = item["link"].replace("|", "%7C").replace("<", "%3C").replace(">", "%3E")
-        line = f"*<{link}|{slack_escape(item['title'][:250])}>*\n_{slack_escape(item['source'])}, {item['published']}_"
-        if w and w.summary:
-            line += f"\n{slack_escape(w.summary[:1500])}"
-            if w.why_it_matters:
-                line += f"\n*Why it matters:* {slack_escape(w.why_it_matters[:600])}"
-        blocks.append({"type": "section", "text": {"type": "mrkdwn", "text": line}})
-    blocks.append({"type": "context", "elements": [{"type": "mrkdwn",
-                   "text": "Summaries are written by Claude from the linked page; \"why it matters\" is "
-                           "Claude's reading, not the source's. Always check the original."}]})
-    return {"text": header, "blocks": blocks[:50]}
+def slack_link(item: dict, label: str) -> str:
+    url = item["link"].replace("|", "%7C").replace("<", "%3C").replace(">", "%3E")
+    return f"<{url}|{slack_escape(label)}>"
+
+
+def story_links(story: Story, items: dict[str, dict]) -> str:
+    links, used = [], set()
+    for i in story.item_ids:
+        if i in items and items[i]["link"] not in used:
+            used.add(items[i]["link"])
+            links.append(slack_link(items[i], items[i]["source"]))
+    return " · ".join(links[:3])
+
+
+def build_message(kind: str, digest: Digest, items: dict[str, dict], today: dt.date) -> dict:
+    day = today.strftime("%a %d %b").replace(" 0", " ")
+    header = f"AI & Education · {day}" if kind == "digest" else "AI & Education · major news"
+    lead = digest.lead
+    lead_text = f"{lead.emoji} *{slack_escape(lead.headline[:200])}*"
+    if lead.detail:
+        lead_text += f"\n{slack_escape(lead.detail[:400])}"
+    if lead.why_it_matters:
+        lead_text += f"\n*Why it matters:* {slack_escape(lead.why_it_matters[:300])}"
+    lead_text += f"\n{story_links(lead, items)}"
+    intro = slack_escape(digest.intro[:300]) if digest.intro else f"*{header}*"
+    blocks = [{"type": "section", "text": {"type": "mrkdwn", "text": intro}},
+              {"type": "section", "text": {"type": "mrkdwn", "text": lead_text}}]
+    if digest.hits:
+        lines = [f"• {h.emoji} {slack_escape(h.headline[:200])} {story_links(h, items)}" for h in digest.hits]
+        blocks += [{"type": "divider"},
+                   {"type": "section", "text": {"type": "mrkdwn", "text": "*Quick hits*\n" + "\n".join(lines)}}]
+    if digest.also_seen:
+        seen = " · ".join(slack_link(items[a.item_id], a.label[:80]) for a in digest.also_seen)
+        blocks.append({"type": "context", "elements": [{"type": "mrkdwn", "text": f"Also seen: {seen}"}]})
+    if digest.signoff:
+        blocks.append({"type": "context", "elements": [{"type": "mrkdwn", "text": slack_escape(digest.signoff[:150])}]})
+    return {"text": digest.intro[:150] or f"{header}: {lead.headline[:150]}", "blocks": blocks,
+            "unfurl_links": False, "unfurl_media": False}
+
+
+def digest_item_ids(digest: Digest) -> set[str]:
+    ids = {i for s in [digest.lead, *digest.hits] for i in s.item_ids}
+    return ids | {a.item_id for a in digest.also_seen}
 
 
 def post(payload: dict, dry_run: bool) -> bool:
@@ -334,18 +431,16 @@ def post(payload: dict, dry_run: bool) -> bool:
     return True
 
 
-def written_entries(client, picked: list[dict]) -> list[tuple[dict, WriteUp | None]]:
+def edit_and_post(client, kind: str, picked: list[dict], today: dt.date, dry_run: bool, hits: int) -> set[str]:
+    """Write the digest from the picked items and post it. Returns the item ids posted (empty if none)."""
     for it in picked:
-        it["text"] = article_text(it)
-    ups = write_up(client, picked) if picked else {}
-    entries = []
-    for it in picked:
-        w = ups.get(it["id"])
-        if w and not quote_found(w.quote, it["text"]):
-            print(f"warning: quote not found, summary dropped for {it['link']}", file=sys.stderr)
-            w = None
-        entries.append((it, w))
-    return entries
+        it.setdefault("text", article_text(it))
+    digest = write_digest(client, picked, hits=hits, today=today)
+    if digest is None:
+        print(f"{kind}: no story passed the checks; nothing posted")
+        return set()
+    items = {it["id"]: it for it in picked}
+    return digest_item_ids(digest) & items.keys() if post(build_message(kind, digest, items, today), dry_run) else set()
 
 
 # ---------- run ----------
@@ -362,6 +457,8 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("--dry-run", action="store_true", help="print the Slack message instead of posting")
     ap.add_argument("--force", action="store_true", help="run even if today's run already happened")
     ap.add_argument("--fetch-only", action="store_true", help="only test the sources; no API calls")
+    ap.add_argument("--include-posted", action="store_true",
+                    help="digest may reuse items already posted (for re-sending a test digest)")
     args = ap.parse_args(argv)
 
     today = now_london()
@@ -414,13 +511,15 @@ def main(argv: list[str] | None = None) -> int:
     if mode == "digest":
         fresh = (today - dt.timedelta(days=DIGEST_POOL_DAYS)).date().isoformat()
         pool = [dict(v, id=k) for k, v in state["items"].items()
-                if not v["posted"] and v["relevance"] >= MIN_RELEVANCE and v["first_seen"] >= fresh]
+                if (args.include_posted or not v["posted"])
+                and v["relevance"] >= MIN_RELEVANCE and v["first_seen"] >= fresh]
         pool.sort(key=lambda v: (v["impact"], v["relevance"], v["published"]), reverse=True)
-        picked = pool[:MAX_DIGEST]
+        picked = pool[:MAX_CANDIDATES]
         if picked:
-            if post(build_message("digest", written_entries(client, picked), today.date()), args.dry_run):
-                for it in picked:
-                    state["items"][it["id"]]["posted"] = True
+            posted = edit_and_post(client, "digest", picked, today.date(), args.dry_run, hits=3)
+            for i in posted:
+                state["items"][i]["posted"] = True
+            if posted:
                 state["last_digest_date"] = date_str
         else:
             print("digest: nothing relevant since the last one")
@@ -436,9 +535,10 @@ def main(argv: list[str] | None = None) -> int:
             cand["text"] = article_text(cand)
             check = confirm_urgent(client, cand)
             if check and check.urgent:
-                entries = written_entries(client, [cand])
-                if post(build_message("alert", entries, today.date()), args.dry_run):
-                    state["items"][cand["id"]]["posted"] = True
+                posted = edit_and_post(client, "alert", [cand], today.date(), args.dry_run, hits=0)
+                for i in posted:
+                    state["items"][i]["posted"] = True
+                if posted:
                     state["last_alert_date"] = date_str
                 break  # at most one alert per day
 
