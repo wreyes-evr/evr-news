@@ -1,0 +1,56 @@
+name: news
+
+on:
+  schedule:
+    # Two triggers so one lands at 08:xx London in both GMT and BST.
+    # The bot itself skips the run that is too early or already done today.
+    - cron: "7 7 * * *"
+    - cron: "7 8 * * *"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "auto, digest or alert"
+        type: choice
+        options: [auto, digest, alert]
+        default: auto
+      dry_run:
+        description: "Print the Slack message in the log instead of posting"
+        type: boolean
+        default: true
+
+permissions:
+  contents: read
+
+concurrency:
+  group: news
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write   # commit state/seen.json
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Run bot
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          MODE: ${{ inputs.mode || 'auto' }}
+          DRY_RUN: ${{ inputs.dry_run && '--dry-run' || '' }}
+          FORCE: ${{ github.event_name == 'workflow_dispatch' && '--force' || '' }}
+        run: python bot/news.py --mode "$MODE" $DRY_RUN $FORCE
+      - name: Save state
+        run: |
+          if git diff --quiet -- state/seen.json; then exit 0; fi
+          git config user.name "evr-news-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add state/seen.json
+          git commit -m "chore: update seen items"
+          git push

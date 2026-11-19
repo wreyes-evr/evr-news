@@ -1,0 +1,27 @@
+{
+  "feeds": [
+    {"name": "DfE", "tier": "official", "url": "https://www.gov.uk/government/organisations/department-for-education.atom"},
+    {"name": "DfE (AI)", "tier": "official", "url": "https://www.gov.uk/search/all.atom?keywords=artificial+intelligence&organisations%5B%5D=department-for-education&order=updated-newest"},
+    {"name": "GOV.UK (AI in education)", "tier": "official", "url": "https://www.gov.uk/search/news-and-communications.atom?keywords=artificial+intelligence+education"},
+    {"name": "Ofqual", "tier": "official", "url": "https://www.gov.uk/government/organisations/ofqual.atom"},
+    {"name": "Ofsted", "tier": "official", "url": "https://www.gov.uk/government/organisations/ofsted.atom"},
+    {"name": "DSIT", "tier": "official", "url": "https://www.gov.uk/government/organisations/department-for-science-innovation-and-technology.atom"},
+    {"name": "ICO", "tier": "official", "url": "https://www.gov.uk/government/organisations/information-commissioner-s-office.atom"},
+    {"name": "Ofqual blog", "tier": "official", "url": "https://ofqual.blog.gov.uk/feed/"},
+    {"name": "DfE Education Hub", "tier": "official", "url": "https://educationhub.blog.gov.uk/feed/"},
+    {"name": "European Commission (Education)", "tier": "official", "url": "https://education.ec.europa.eu/rss.xml"},
+    {"name": "EC Digital Strategy", "tier": "official", "url": "https://digital-strategy.ec.europa.eu/en/rss.xml"},
+    {"name": "BBC Education", "tier": "news", "url": "https://feeds.bbci.co.uk/news/education/rss.xml"},
+    {"name": "Wonkhe", "tier": "news", "url": "https://www.wonkhe.com/feed/"},
+    {"name": "HEPI", "tier": "news", "url": "https://www.hepi.ac.uk/feed/"},
+    {"name": "Hechinger Report", "tier": "news", "url": "https://hechingerreport.org/feed/"},
+    {"name": "EdSurge", "tier": "news", "url": "https://www.edsurge.com/articles_rss"},
+    {"name": "OpenAI", "tier": "lab", "url": "https://openai.com/news/rss.xml"},
+    {"name": "Google AI", "tier": "lab", "url": "https://blog.google/technology/ai/rss/"},
+    {"name": "Google DeepMind", "tier": "lab", "url": "https://deepmind.google/blog/rss.xml"}
+  ],
+  "sitemaps": [
+    {"name": "Anthropic", "tier": "lab", "url": "https://www.anthropic.com/sitemap.xml", "path": "/news/"},
+    {"name": "Stanford SCALE", "tier": "research", "url": "https://scale.stanford.edu/sitemap.xml", "path": "/ai/repository/"}
+  ]
+}
