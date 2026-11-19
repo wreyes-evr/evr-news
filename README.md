@@ -25,7 +25,9 @@ Repository secrets (Settings → Secrets and variables → Actions):
 | `ANTHROPIC_API_KEY` | API key with a monthly spend limit (suggested US$10) |
 | `SLACK_WEBHOOK_URL` | Incoming webhook for the target channel |
 
-Until `ANTHROPIC_API_KEY` is set the workflow does nothing. Without `SLACK_WEBHOOK_URL` it prints the message in the log instead of posting.
+Until both secrets are set, scheduled runs do nothing and change no state. A manual run with `dry_run` on needs only `ANTHROPIC_API_KEY` and prints the message in the log.
+
+Before enabling the secrets, make sure branch rules on `main` let GitHub Actions push (the state commit).
 
 ## Running it
 
