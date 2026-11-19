@@ -324,14 +324,18 @@ NUMBER = re.compile(r"\d[\d,.]*\d|\d")
 
 
 def numbers_supported(text: str, sources: str) -> bool:
-    """Every number written by the model must appear in the source text."""
-    haystack = squash(sources).replace(",", "")
-    return all(n.replace(",", "").rstrip(".") in haystack for n in NUMBER.findall(text))
+    """Every number written by the model must appear as a whole number in the source text."""
+    found = {n.replace(",", "").rstrip(".") for n in NUMBER.findall(squash(sources))}
+    return all(n.replace(",", "").rstrip(".") in found for n in NUMBER.findall(text))
+
+
+def one_line(text: str) -> str:
+    return re.sub(r"\s+", " ", text or "").strip()
 
 
 def story_ok(story: Story, texts: dict[str, str]) -> bool:
     ids = [i for i in story.item_ids if i in texts]
-    if not ids or story.quote_item_id not in texts:
+    if not ids or story.quote_item_id not in ids:
         return False
     if not quote_found(story.quote, texts[story.quote_item_id]):
         return False
@@ -354,14 +358,21 @@ def write_digest(client, items: list[dict], hits: int = 3, today: dt.date | None
         print(f"warning: {dropped} story(ies) failed the quote/number check and were dropped", file=sys.stderr)
     if not stories:
         return None
+    stories = [s.model_copy(update={"headline": one_line(s.headline), "detail": one_line(s.detail),
+                                    "why_it_matters": one_line(s.why_it_matters),
+                                    "emoji": one_line(s.emoji)[:2] or "📰"}) for s in stories]
     lead = stories[0]
-    if lead is not digest.lead:  # promoted hit has no detail; keep it honest and short
+    if stories[0].item_ids != digest.lead.item_ids:  # promoted hit has no detail; keep it short
         lead = lead.model_copy(update={"detail": "", "why_it_matters": ""})
-    seen = [a for a in digest.also_seen if a.item_id in texts and numbers_supported(a.label, texts[a.item_id])]
-    all_text = " ".join(texts.values())
-    intro = digest.intro if numbers_supported(digest.intro, all_text) else ""
-    signoff = digest.signoff if numbers_supported(digest.signoff, all_text) else ""
-    return Digest(intro=intro, signoff=signoff, lead=lead, hits=stories[1:1 + hits], also_seen=seen[:3])
+    kept = stories[:1 + hits]
+    used = {i for s in kept for i in s.item_ids}
+    seen = [a.model_copy(update={"label": one_line(a.label)}) for a in digest.also_seen
+            if a.item_id in texts and a.item_id not in used and numbers_supported(a.label, texts[a.item_id])]
+    kept_text = " ".join(texts[i] for i in used if i in texts)
+    intro = one_line(digest.intro) if numbers_supported(digest.intro, kept_text) else ""
+    signoff = one_line(digest.signoff) if numbers_supported(digest.signoff, kept_text) else ""
+    return Digest(intro=intro, signoff=signoff, lead=lead, hits=kept[1:],
+                  also_seen=seen[:3] if hits else [])
 
 
 def confirm_urgent(client, item: dict) -> UrgentCheck | None:
@@ -401,6 +412,8 @@ def build_message(kind: str, digest: Digest, items: dict[str, dict], today: dt.d
         lead_text += f"\n*Why it matters:* {slack_escape(lead.why_it_matters[:300])}"
     lead_text += f"\n{story_links(lead, items)}"
     intro = slack_escape(digest.intro[:300]) if digest.intro else f"*{header}*"
+    if kind == "alert":
+        intro = "🚨 *Major news*\n" + intro
     blocks = [{"type": "section", "text": {"type": "mrkdwn", "text": intro}},
               {"type": "section", "text": {"type": "mrkdwn", "text": lead_text}}]
     if digest.hits:

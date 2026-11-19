@@ -59,6 +59,20 @@ def test_story_checks_quote_and_numbers():
     assert not news.story_ok(bad_quote, texts)
 
 
+def test_numbers_must_match_whole_numbers():
+    src = "published 2,040 pages in 2026 and 150 schools took part"
+    assert news.numbers_supported("2,040 pages and 150 schools", src)
+    assert not news.numbers_supported("40% of schools", src)
+    assert not news.numbers_supported("15 schools", src)
+
+
+def test_quote_must_come_from_the_story_itself():
+    texts = {"a": "Ofqual wrote to awarding organisations about misuse of AI in coursework this week.",
+             "b": "Unrelated text about something else entirely in another document."}
+    s = _story(["b"], "Ofqual writes to exam boards", "a", "wrote to awarding organisations about misuse of AI")
+    assert not news.story_ok(s, texts)
+
+
 def test_dry_run_post_reports_not_posted(capsys):
     assert news.post({"text": "x", "blocks": []}, dry_run=True) is False
 
