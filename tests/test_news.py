@@ -23,29 +23,27 @@ def test_slack_escape():
     assert news.slack_escape("A & B <c>") == "A &amp; B &lt;c&gt;"
 
 
-def test_pick_mode():
-    tue = dt.datetime(2026, 11, 17, 8, 7, tzinfo=news.LONDON)
-    wed = dt.datetime(2026, 11, 18, 8, 7, tzinfo=news.LONDON)
-    assert news.pick_mode("auto", tue) == "digest"
-    assert news.pick_mode("auto", wed) == "alert"
-    assert news.pick_mode("alert", tue) == "alert"
+def test_posts_every_weekday_not_weekends():
+    days = [dt.datetime(2026, 11, d, 8, 7, tzinfo=news.LONDON) for d in range(16, 23)]  # Mon 16 .. Sun 22
+    assert [news.is_post_day(d) for d in days] == [True] * 5 + [False] * 2
 
 
-def _story(ids, headline, quote_id, quote, detail="", why=""):
+def _story(ids, headline, quote_id, quote, detail=""):
     return news.Story(item_ids=ids, emoji="📝", headline=headline, detail=detail,
-                      why_it_matters=why, quote=quote, quote_item_id=quote_id)
+                      quote=quote, quote_item_id=quote_id)
 
 
 def test_build_message_has_voice_lead_hits_and_links():
     items = {"a": {"link": "https://e.org/a", "source": "Ofqual"}, "b": {"link": "https://e.org/b", "source": "BBC"}}
     d = news.Digest(intro="Morning all ☕ Busy week for coursework.", signoff="Have a good weekend, all.",
-                    lead=_story(["a"], "Ofqual <warns> boards", "a", "q", "Fact.", "Why."),
+                    lead=_story(["a"], "Ofqual <warns> boards", "a", "q", "Fact and why."),
                     hits=[_story(["b"], "Tories pledge cuts", "b", "q")], also_seen=[])
-    msg = news.build_message("digest", d, items, dt.date(2026, 11, 21))
+    msg = news.build_message(d, items, dt.date(2026, 11, 21))
     texts = " ".join(b["text"]["text"] if "text" in b else b["elements"][0]["text"] for b in msg["blocks"] if b["type"] != "divider")
     assert texts.startswith("Morning all")
     assert "Ofqual &lt;warns&gt; boards" in texts and "<https://e.org/a|Ofqual>" in texts
-    assert "Quick hits" in texts and "Have a good weekend" in texts
+    assert "• 📝 Tories pledge cuts" in texts and "Have a good weekend" in texts
+    assert "Why it matters" not in texts and "Quick hits" not in texts
     assert msg["unfurl_links"] is False
 
 
@@ -97,5 +95,21 @@ def test_failed_triage_stores_nothing(monkeypatch, tmp_path):
     monkeypatch.setattr(news, "collect", lambda s: ([item], []))
     monkeypatch.setattr(news, "ask", lambda *a, **k: None)
     monkeypatch.setattr(news, "post", lambda *a, **k: (_ for _ in ()).throw(AssertionError("must not post")))
-    assert news.main(["--force", "--mode", "digest"]) == 1
+    assert news.main(["--force"]) == 1
     assert not state.exists()
+
+
+def test_weekend_scores_items_but_does_not_post(monkeypatch, tmp_path):
+    state = tmp_path / "seen.json"
+    monkeypatch.setattr(news, "STATE_PATH", state)
+    monkeypatch.setenv("ANTHROPIC_API_KEY", "x")
+    monkeypatch.setenv("SLACK_WEBHOOK_URL", "https://hooks.example/x")
+    monkeypatch.setattr(news, "now_london", lambda: dt.datetime(2026, 11, 21, 8, 7, tzinfo=news.LONDON))  # Saturday
+    item = {"id": "a" * 16, "link": "https://e.org/a", "title": "T", "snippet": "", "published": "2026-11-21",
+            "source": "DfE", "tier": "official"}
+    monkeypatch.setattr(news, "collect", lambda s: ([item], []))
+    monkeypatch.setattr(news, "triage", lambda c, its: {"a" * 16: news.Score(id="a" * 16, relevance=3, impact=3)})
+    monkeypatch.setattr(news, "post", lambda *a, **k: (_ for _ in ()).throw(AssertionError("must not post")))
+    assert news.main([]) == 0
+    saved = news.json.loads(state.read_text(encoding="utf-8"))
+    assert saved["items"]["a" * 16]["posted"] is False
