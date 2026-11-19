@@ -12,6 +12,18 @@
    "tier": "official",
    "title": "Transparency data: MenB vaccination programme: eligible residential further education settings"
   },
+  "01a8528fa117926a": {
+   "first_seen": "2026-11-19",
+   "impact": 2,
+   "link": "https://openai.com/index/closing-ai-guidance-gap-education",
+   "posted": false,
+   "published": "2026-11-10",
+   "relevance": 3,
+   "snippet": "New ThinkYoung research and lessons from OpenAI’s EMEA education partnerships on supporting teachers, AI literacy, and independent learning.",
+   "source": "OpenAI",
+   "tier": "lab",
+   "title": "Closing the AI guidance gap in education"
+  },
   "022ce0cc508e63c6": {
    "first_seen": "2026-11-19",
    "impact": 0,
@@ -23,6 +35,18 @@
    "source": "DfE",
    "tier": "official",
    "title": "Claim an early years teacher recognition payment"
+  },
+  "02e4a20d191af380": {
+   "first_seen": "2026-11-19",
+   "impact": 1,
+   "link": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/",
+   "posted": false,
+   "published": "2026-11-10",
+   "relevance": 0,
+   "snippet": "Google Cloud launches Gemini for healthcare to unify clinical data and automate workflows. Reduce administrative burnout. See how it works.",
+   "source": "Google AI",
+   "tier": "lab",
+   "title": "Google Cloud launches Gemini for healthcare."
   },
   "03ca78c3505292b1": {
    "first_seen": "2026-11-19",
@@ -83,6 +107,18 @@
    "source": "Hechinger Report",
    "tier": "news",
    "title": "COLUMN: Will the blue wave reopen job opportunities for Black and Hispanic students?"
+  },
+  "0990939c7d6ea9f7": {
+   "first_seen": "2026-11-19",
+   "impact": 0,
+   "link": "https://openai.com/business/customer-stories/holidays-extras-codex",
+   "posted": false,
+   "published": "2026-11-12",
+   "relevance": 0,
+   "snippet": "With Codex, Holiday Extras is turning customer expertise into better apps, higher booking conversion and new possibilities for growth.",
+   "source": "OpenAI",
+   "tier": "lab",
+   "title": "Holiday Extras is rethinking what it can build with Codex"
   },
   "09a2c5323a0be22b": {
    "first_seen": "2026-11-19",
@@ -156,6 +192,30 @@
    "tier": "news",
    "title": "School offers prizes to pupils for turning up to class on day GTA 6 comes out"
   },
+  "10168650f48cdd45": {
+   "first_seen": "2026-11-19",
+   "impact": 1,
+   "link": "https://www.gov.uk/government/statistics/state-funded-schools-inspections-and-outcomes-as-at-31-august-2026",
+   "posted": false,
+   "published": "2026-11-10",
+   "relevance": 0,
+   "snippet": "Provisional data for the period 1 April 2026 to 31 August 2026 and revised data for the period 10 November 2025 to 31 March 2026.",
+   "source": "Ofsted",
+   "tier": "official",
+   "title": "Official Statistics: State-funded schools inspections and outcomes as at 31 August 2026"
+  },
+  "14eef01dc0f429cb": {
+   "first_seen": "2026-11-19",
+   "impact": 0,
+   "link": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/esther-mahlangu/",
+   "posted": false,
+   "published": "2026-11-11",
+   "relevance": 0,
+   "snippet": "A portrait of Dr Nontobeko Ntombela, Senior Lecturer, Department of Curatorial, Public and Visual Cultures, Wits School of Arts, University of the Witwatersrand",
+   "source": "Google AI",
+   "tier": "lab",
+   "title": "Experience the art and legacy of Dr. Esther Mahlangu"
+  },
   "170f64f1dca31270": {
    "first_seen": "2026-11-19",
    "impact": 0,
@@ -179,6 +239,18 @@
    "source": "HEPI",
    "tier": "news",
    "title": "Skills talk in English studies: surfacing skills in the age of AI"
+  },
+  "186bb3533e054f8c": {
+   "first_seen": "2026-11-19",
+   "impact": 3,
+   "link": "https://wonkhe.com/blogs/ofs-and-advance-he-assess-the-state-of-the-sector-for-ai-in-education",
+   "posted": true,
+   "published": "2026-11-11",
+   "relevance": 3,
+   "snippet": "“Making AI work for students” explores how institutions are managing AI across learning, teaching, assessment and operations, along with advice about what good looks like. Debbie McVitty is ambivalent",
+   "source": "Wonkhe",
+   "tier": "news",
+   "title": "OfS and Advance HE assess the state of the sector for AI in education"
   },
   "1a2c85b60266f2e6": {
    "first_seen": "2026-11-19",
@@ -204,6 +276,18 @@
    "tier": "news",
    "title": "A decade on from the Higher Education & Research Act (HERA), it’s time for the new sector champions to arise"
   },
+  "1a97ab9029f4f1c3": {
+   "first_seen": "2026-11-19",
+   "impact": 0,
+   "link": "https://www.edsurge.com/news/can-schools-prepare-students-to-vote-without-telling-them-what-to-think",
+   "posted": false,
+   "published": "2026-11-11",
+   "relevance": 1,
+   "snippet": "Two conversations examine how schools help young people weigh the facts and make up their own minds.",
+   "source": "EdSurge",
+   "tier": "news",
+   "title": "Can Schools Prepare Students to Vote Without Telling Them What to Think?"
+  },
   "1b565163c5586e8b": {
    "first_seen": "2026-11-19",
    "impact": 3,
@@ -216,6 +300,42 @@
    "tier": "official",
    "title": "Government fires starting gun on new settlement for young people"
   },
+  "1ff74ee2cb106637": {
+   "first_seen": "2026-11-19",
+   "impact": 0,
+   "link": "https://openai.com/index/cogent-security",
+   "posted": false,
+   "published": "2026-11-10",
+   "relevance": 0,
+   "snippet": "Cogent combines OpenAI models with enterprise context to help automatically remediate vulnerabilities with agents.",
+   "source": "OpenAI",
+   "tier": "lab",
+   "title": "Cogent and OpenAI build cyber defense factories for enterprises"
+  },
+  "229669d7480af47a": {
+   "first_seen": "2026-11-19",
+   "impact": 1,
+   "link": "https://scale.stanford.edu/ai/repository/marked-pedagogies-examining-linguistic-biases-personalized-automated-writing-feedback",
+   "posted": false,
+   "published": "2026-11-09",
+   "relevance": 3,
+   "snippet": "Effective personalized feedback is critical to students√ï literacy development. Though LLM-powered tools now promise to automate such feedback at scale, LLMs are not language-neutral: they privilege standard academic English and reproduce social stereotypes, raising concerns about how √ípersonalization√ì shapes the feedback students receive. We examine how four widely used LLMs (GPT-4o, GPT-3.5-turbo, Llama-3.3 70B, Llama-3.1 8B) adapt written feedback in response to student attributes.",
+   "source": "Stanford SCALE",
+   "tier": "research",
+   "title": "Marked Pedagogies: Examining Linguistic Biases in Personalized Automated Writing Feedback | SCALE Initiative"
+  },
+  "23b94c697622500f": {
+   "first_seen": "2026-11-19",
+   "impact": 0,
+   "link": "https://openai.com/index/coderabbit-codex-daybreak",
+   "posted": false,
+   "published": "2026-11-09",
+   "relevance": 0,
+   "snippet": "CodeRabbit uses OpenAI models to govern and trust AI-generated code and Codex to ship 20 times more software with the same engineering team.",
+   "source": "OpenAI",
+   "tier": "lab",
+   "title": "CodeRabbit scales agentic software development and ships 20x more"
+  },
   "241f39be18f4bec4": {
    "first_seen": "2026-11-19",
    "impact": 0,
@@ -227,6 +347,18 @@
    "source": "Ofsted",
    "tier": "official",
    "title": "School inspection data summary report (IDSR) guide"
+  },
+  "243d925fcf22e052": {
+   "first_seen": "2026-11-19",
+   "impact": 1,
+   "link": "https://education.ec.europa.eu/whats-new/news/essentials-for-successful-education-in-green-and-digital-insights-from-community-for-educational-innovation",
+   "posted": false,
+   "published": "2026-11-11",
+   "relevance": 1,
+   "snippet": "Essentials for successful education in green and digital – insights from Community for Educational Innovation holbobe Wed, 11/11/2026 - 08:44 Reshaping economies Europe requires more than learners who can navigate digital tools or understand sustainability. As the green and digital transitions reshape economies, education and training are essential investments to make Europe innovate, remain competitive, build resilience and respond to changing skills needs. Europe needs a skilled workforce to work across disciplines, leverage digital technologies, and promote environmental sustainability and ",
+   "source": "European Commission (Education)",
+   "tier": "official",
+   "title": "Essentials for successful education in green and digital – insights from Community for Educational Innovation"
   },
   "270429fc85654577": {
    "first_seen": "2026-11-19",
@@ -300,6 +432,30 @@
    "tier": "news",
    "title": "Compliance is the least disabled students are owed"
   },
+  "2db48ccc016cbd8b": {
+   "first_seen": "2026-11-19",
+   "impact": 0,
+   "link": "https://wonkhe.com/blogs/student-support-isnt-neutral-it-can-protect-institutions-as-much-as-students",
+   "posted": false,
+   "published": "2026-11-10",
+   "relevance": 0,
+   "snippet": "Lisa Appleyard-Keeling and Josephine Gabi argue that student support is often treated as an unquestioned good, and that the real job is changing institutions rather than students",
+   "source": "Wonkhe",
+   "tier": "news",
+   "title": "Student support isn’t neutral – it can protect institutions as much as students"
+  },
+  "2e6e0f2e9dbddc32": {
+   "first_seen": "2026-11-19",
+   "impact": 0,
+   "link": "https://www.gov.uk/government/publications/ofquals-statistics-policies-and-procedures",
+   "posted": false,
+   "published": "2026-11-10",
+   "relevance": 0,
+   "snippet": "Ofqual’s policies and procedures for producing official statistics and complying with the Code of Practice for Statistics.",
+   "source": "Ofqual",
+   "tier": "official",
+   "title": "Transparency data: Ofqual's statistics: policies and procedures"
+  },
   "2ee42d7ff182f781": {
    "first_seen": "2026-11-19",
    "impact": 0,
@@ -336,6 +492,30 @@
    "tier": "news",
    "title": "The young people caught up in Britain's Neets crisis"
   },
+  "30b34b41908e5a51": {
+   "first_seen": "2026-11-19",
+   "impact": 1,
+   "link": "https://wonkhe.com/blogs/the-lifelong-learning-entitlement-means-universities-will-need-to-run-on-two-clocks",
+   "posted": false,
+   "published": "2026-11-10",
+   "relevance": 1,
+   "snippet": "Gianina Harvey-Brewin argues that the challenge of the LLE isn’t whether universities can make learning modular, but whether they can operate modularly too",
+   "source": "Wonkhe",
+   "tier": "news",
+   "title": "The lifelong learning entitlement means universities will need to run on two clocks"
+  },
+  "30f1848224335f62": {
+   "first_seen": "2026-11-19",
+   "impact": 2,
+   "link": "https://wonkhe.com/blogs/cutting-disabled-students-allowance-software-risks-a-postcode-lottery-for-students",
+   "posted": false,
+   "published": "2026-11-11",
+   "relevance": 2,
+   "snippet": "As the Department for Education weighs up removing most assistive software from Disabled Students’ Allowance, Carolyne Smith argues the department has yet to show its working – and universities could be left with the bill",
+   "source": "Wonkhe",
+   "tier": "news",
+   "title": "Cutting Disabled Students’ Allowance software risks a postcode lottery for students"
+  },
   "31fa07bb1e3c3627": {
    "first_seen": "2026-11-19",
    "impact": 1,
@@ -371,6 +551,18 @@
    "source": "DfE",
    "tier": "official",
    "title": "Guidance: Keeping children and staff safe in hot weather"
+  },
+  "3588ceed41552e46": {
+   "first_seen": "2026-11-19",
+   "impact": 1,
+   "link": "https://openai.com/index/ai-effect-on-freelance-work",
+   "posted": false,
+   "published": "2026-11-10",
+   "relevance": 1,
+   "snippet": "New research from OpenAI and Upwork finds shifting demand for freelance work, new skill combinations, and larger budgets and more hours for AI-related projects.",
+   "source": "OpenAI",
+   "tier": "lab",
+   "title": "Work at the Frontier: AI’s effect on freelance work"
   },
   "35ab92d1e27e46c1": {
    "first_seen": "2026-11-19",
@@ -420,6 +612,18 @@
    "tier": "news",
    "title": "Britain’s education system has a data problem"
   },
+  "3bea56b47791479e": {
+   "first_seen": "2026-11-19",
+   "impact": 0,
+   "link": "https://www.gov.uk/government/statistical-data-sets/further-education-and-skills-inspections-and-outcomes-management-information-from-september-2026-to-august-2027",
+   "posted": false,
+   "published": "2026-11-10",
+   "relevance": 0,
+   "snippet": "Management information for further education and skills, showing in-year inspection outcomes.",
+   "source": "Ofsted",
+   "tier": "official",
+   "title": "Further education and skills inspections and outcomes: management information from September 2026 to August 2027"
+  },
   "3db917831ef7b0aa": {
    "first_seen": "2026-11-19",
    "impact": 0,
@@ -431,6 +635,18 @@
    "source": "GOV.UK (AI in education)",
    "tier": "official",
    "title": "Australia-United Kingdom Joint Communiqué on the 2nd Strategic Innovation Dialogue"
+  },
+  "3e93b598bd8a0cb4": {
+   "first_seen": "2026-11-19",
+   "impact": 1,
+   "link": "https://www.hepi.ac.uk/2026/11/12/hepi-debate-paper-49-blog-post/",
+   "posted": false,
+   "published": "2026-11-12",
+   "relevance": 1,
+   "snippet": "In HEPI’s latest report, Bahram Bekhradnia, HEPI’s founder and President makes the case that with 20 years of student loans in the bank, now is the moment to open the debate on a graduate tax. It argues that the current student finance system is widely regarded as dysfunctional, noting there is little consensus on what […] The post New HEPI Debate Paper: Bring it to the top of the in-tray: with 20 years of student loans in the bank, now is the moment to debate a graduate tax appeared first on HEPI .",
+   "source": "HEPI",
+   "tier": "news",
+   "title": "New HEPI Debate Paper: Bring it to the top of the in-tray: with 20 years of student loans in the bank, now is the moment to debate a graduate tax"
   },
   "3ea95544aa24f7de": {
    "first_seen": "2026-11-19",
@@ -444,6 +660,18 @@
    "tier": "news",
    "title": "Universities can’t do place-based working without doing politics"
   },
+  "3fee4bafbfa32636": {
+   "first_seen": "2026-11-19",
+   "impact": 0,
+   "link": "https://hechingerreport.org/sold-a-story-get-ready/",
+   "posted": false,
+   "published": "2026-11-12",
+   "relevance": 1,
+   "snippet": "This podcast, Sold a Story, was produced by APM Reports and reprinted with permission. Sold a Story is an investigative podcast about how kids learn — what works in the classroom, the science behind those insights and why that research often doesn’t make it into schools. Season 1 revealed why so many kids are struggling to learn […] The post Sold a story: Get ready! appeared first on The Hechinger Report .",
+   "source": "Hechinger Report",
+   "tier": "news",
+   "title": "Sold a story: Get ready!"
+  },
   "40e40961a2772fc6": {
    "first_seen": "2026-11-19",
    "impact": 0,
@@ -455,6 +683,18 @@
    "source": "Wonkhe",
    "tier": "news",
    "title": "Universities are wrong to obsess over student presentations"
+  },
+  "411ba3532b1d5f8c": {
+   "first_seen": "2026-11-19",
+   "impact": 0,
+   "link": "https://hechingerreport.org/student-voice-schools-teach-students-what-to-learn-but-rarely-teach-them-how-to-learn/",
+   "posted": false,
+   "published": "2026-11-12",
+   "relevance": 1,
+   "snippet": "Schools spend years teaching algebra, chemistry and history to students. Yet too many finish high school without knowing how memory, attention and stress impact their learning. They assume that poor grades mean “they aren’t smart enough.” The truth is, few students are taught evidence-backed strategies for studying, getting a good night’s sleep and managing stress […] The post STUDENT VOICE: Schools teach students what to learn, but rarely teach them how to learn appeared first on The Hechinger Report .",
+   "source": "Hechinger Report",
+   "tier": "news",
+   "title": "STUDENT VOICE: Schools teach students what to learn, but rarely teach them how to learn"
   },
   "424d89bf7d97dc2d": {
    "first_seen": "2026-11-19",
@@ -516,6 +756,18 @@
    "tier": "news",
    "title": "Podcast: AI and assessment, TEF"
   },
+  "46ecb159c1535b09": {
+   "first_seen": "2026-11-19",
+   "impact": 1,
+   "link": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
+   "posted": false,
+   "published": "2026-11-10",
+   "relevance": 1,
+   "snippet": "OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build practical AI skills for everyday life.",
+   "source": "OpenAI",
+   "tier": "lab",
+   "title": "Helping caregivers use AI in everyday life"
+  },
   "4b0fc5b701ffd77d": {
    "first_seen": "2026-11-19",
    "impact": 0,
@@ -528,6 +780,18 @@
    "tier": "lab",
    "title": "Our new blog for science"
   },
+  "4bb4934ed6ff0053": {
+   "first_seen": "2026-11-19",
+   "impact": 1,
+   "link": "https://www.gov.uk/government/publications/managing-risk-in-international-education-partnerships-and-overseas-operations",
+   "posted": false,
+   "published": "2026-11-11",
+   "relevance": 1,
+   "snippet": "Guidance for UK education providers and organisations forming partnerships with foreign entities or delivering education services or research overseas.",
+   "source": "DfE (AI)",
+   "tier": "official",
+   "title": "Managing risk in international education partnerships and overseas operations"
+  },
   "4c6c987b65345788": {
    "first_seen": "2026-11-19",
    "impact": 1,
@@ -539,6 +803,42 @@
    "source": "Anthropic",
    "tier": "lab",
    "title": "Investing in the public benefit \\ Anthropic"
+  },
+  "4d86e08c13f0e4f2": {
+   "first_seen": "2026-11-19",
+   "impact": 1,
+   "link": "https://scale.stanford.edu/ai/repository/building-ai-companions-prioritise-learning-over-performance",
+   "posted": false,
+   "published": "2026-11-09",
+   "relevance": 3,
+   "snippet": "Large language models (LLMs) are rapidly transforming knowledge work by improving the quality and efficiency of tasks such as writing, coding, and data analysis. However, their growing use in education has exposed a learning-performance paradox: while they can enhance short-term task performance, they may also undermine genuine learning, including cognitive growth, knowledge transfer, and metacognitive development. This paper addresses the question of how artificial intelligence should be designed and used to support learning rather than merely improve immediate outputs.",
+   "source": "Stanford SCALE",
+   "tier": "research",
+   "title": "Building AI Companions that Prioritise Learning over Performance | SCALE Initiative"
+  },
+  "4e3e5904c85ae763": {
+   "first_seen": "2026-11-19",
+   "impact": 0,
+   "link": "https://openai.com/index/singapore-airlines-travel-work",
+   "posted": false,
+   "published": "2026-11-10",
+   "relevance": 0,
+   "snippet": "Discover how Singapore Airlines uses OpenAI models and API to enhance customer support, travel discovery, and employee productivity, doubling CSAT for its Kris chatbot.",
+   "source": "OpenAI",
+   "tier": "lab",
+   "title": "Singapore Airlines elevates travel & work with OpenAI technology"
+  },
+  "4f93cb5285f974bd": {
+   "first_seen": "2026-11-19",
+   "impact": 0,
+   "link": "https://educationhub.blog.gov.uk/2026/11/how-should-schools-prepare-for-snow-storm-and-flooding-and-will-they-close/",
+   "posted": false,
+   "published": "2026-11-09",
+   "relevance": 0,
+   "snippet": "Schools and other education settings should stay open during severe weather wherever it is safe and reasonably possible. With effective planning, most settings can adapt and keep operating safely in storms, flooding, snow, ice, high winds, heatwaves and extreme cold. …",
+   "source": "DfE Education Hub",
+   "tier": "official",
+   "title": "How should schools prepare for snow, storms and flooding, and will they close?"
   },
   "5070f5cdf26a80f5": {
    "first_seen": "2026-11-19",
@@ -576,6 +876,18 @@
    "tier": "official",
    "title": "Alan Milburn Appointed Chair of the new Youth Opportunities Unit"
   },
+  "5301945a0b54f0e1": {
+   "first_seen": "2026-11-19",
+   "impact": 1,
+   "link": "https://scale.stanford.edu/ai/repository/thinking-fast-slow-and-artificial-how-ai-reshaping-human-reasoning-and-rise-cognitive-surrender",
+   "posted": false,
+   "published": "2026-11-09",
+   "relevance": 3,
+   "snippet": "People increasingly consult generative artificial intelligence (AI) while reasoning. As AI becomes embedded in daily thought, what becomes of human judgment? We introduce Tri-System Theory, extending dual-process accounts of reasoning by positing System 3: artificial cognition that operates outside the brain. System 3 can supplement or supplant internal processes, introducing novel cognitive pathways. A key prediction of the theory is \"cognitive surrender\"-adopting AI outputs with minimal scrutiny, overriding intuition (System 1) and deliberation (System 2).",
+   "source": "Stanford SCALE",
+   "tier": "research",
+   "title": "Thinking-Fast, Slow, and Artificial: How AI is Reshaping Human Reasoning and the Rise of Cognitive Surrender | SCALE Initiative"
+  },
   "53f2a14376dda94d": {
    "first_seen": "2026-11-19",
    "impact": 0,
@@ -611,6 +923,18 @@
    "source": "Hechinger Report",
    "tier": "news",
    "title": "Fewer students, more teachers: Districts balk at cutting staff even as enrollment falls"
+  },
+  "57a49089cf6a8be0": {
+   "first_seen": "2026-11-19",
+   "impact": 1,
+   "link": "https://wonkhe.com/blogs/student-financial-support-should-run-on-students-time-not-the-universitys",
+   "posted": false,
+   "published": "2026-11-11",
+   "relevance": 0,
+   "snippet": "Simon Wright and Ben Stone argue that financial support is too often built around institutional payment cycles instead of when students actually need it, and suggest how existing resources could go further",
+   "source": "Wonkhe",
+   "tier": "news",
+   "title": "Student financial support should run on students’ time, not the university’s"
   },
   "58da9c66b1456ac9": {
    "first_seen": "2026-11-19",
@@ -648,6 +972,18 @@
    "tier": "news",
    "title": "Is there bad news for young people in Wales' budget?"
   },
+  "5b0f73df89a6e310": {
+   "first_seen": "2026-11-19",
+   "impact": 0,
+   "link": "https://openai.com/business/customer-stories/amplitude",
+   "posted": false,
+   "published": "2026-11-12",
+   "relevance": 0,
+   "snippet": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
+   "source": "OpenAI",
+   "tier": "lab",
+   "title": "How Amplitude ships product improvements in 1–2 days with OpenAI"
+  },
   "5bf4951adbe9698d": {
    "first_seen": "2026-11-19",
    "impact": 1,
@@ -672,6 +1008,18 @@
    "tier": "news",
    "title": "Initial thoughts on the Milburn review"
   },
+  "5ca4dc7b6d88cb31": {
+   "first_seen": "2026-11-19",
+   "impact": 0,
+   "link": "https://openai.com/index/introducing-businesses-chatgpt",
+   "posted": false,
+   "published": "2026-11-10",
+   "relevance": 0,
+   "snippet": "Manage your business information, get insights about how your business shows up, and turn interest into action in ChatGPT.",
+   "source": "OpenAI",
+   "tier": "lab",
+   "title": "Introducing Businesses in ChatGPT"
+  },
   "5e99d69f3732d6a7": {
    "first_seen": "2026-11-19",
    "impact": 1,
@@ -695,6 +1043,18 @@
    "source": "HEPI",
    "tier": "news",
    "title": "Counted but not consulted: do students recognise widening participation support as being for them?"
+  },
+  "66ed14c6418f09b7": {
+   "first_seen": "2026-11-19",
+   "impact": 1,
+   "link": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/",
+   "posted": false,
+   "published": "2026-11-10",
+   "relevance": 1,
+   "snippet": "Google and Adobe are integrating creative and productivity tools. Edit PDFs in Drive and use Adobe AI in Gemini. See what’s new in this partnership.",
+   "source": "Google AI",
+   "tier": "lab",
+   "title": "We’re bringing Adobe’s creative and productivity tools closer to your everyday Google apps."
   },
   "67738200317816e8": {
    "first_seen": "2026-11-19",
@@ -792,6 +1152,18 @@
    "tier": "news",
    "title": "Preschool math blasts off in Mississippi"
   },
+  "7da1b2b4758f6148": {
+   "first_seen": "2026-11-19",
+   "impact": 1,
+   "link": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
+   "posted": false,
+   "published": "2026-11-09",
+   "relevance": 0,
+   "snippet": "Our most capable vision-language-action model enhances robot dexterity, reliability, and safety",
+   "source": "Google DeepMind",
+   "tier": "lab",
+   "title": "Gemini Robotics 2.5 accelerates real-world general dexterity"
+  },
   "7f359a5e2d77c4dd": {
    "first_seen": "2026-11-19",
    "impact": 2,
@@ -815,6 +1187,30 @@
    "source": "DfE",
    "tier": "official",
    "title": "Guidance: T Level funding"
+  },
+  "80b38ea7da372c49": {
+   "first_seen": "2026-11-19",
+   "impact": 0,
+   "link": "https://openai.com/index/chatgpt-plus-for-veterans",
+   "posted": false,
+   "published": "2026-11-11",
+   "relevance": 0,
+   "snippet": "More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use it to prepare for civilian careers.",
+   "source": "OpenAI",
+   "tier": "lab",
+   "title": "ChatGPT Plus for veterans and servicemembers"
+  },
+  "8508423097450e64": {
+   "first_seen": "2026-11-19",
+   "impact": 3,
+   "link": "https://www.gov.uk/government/consultations/introducing-an-edtech-and-ai-product-safety-certification-scheme",
+   "posted": true,
+   "published": "2026-11-10",
+   "relevance": 3,
+   "snippet": "We are seeking views on plans to introduce a certification scheme to assure the safety of education technology and artificial intelligence products in England.",
+   "source": "DfE (AI)",
+   "tier": "official",
+   "title": "Introducing an EdTech and AI product safety certification scheme"
   },
   "8573166b3cb36559": {
    "first_seen": "2026-11-19",
@@ -924,6 +1320,18 @@
    "tier": "official",
    "title": "Letter to awarding organisations about misuse of AI and wearable technology"
   },
+  "8c999d6885d24711": {
+   "first_seen": "2026-11-19",
+   "impact": 0,
+   "link": "https://openai.com/index/jiostar-vijay-seshadri",
+   "posted": false,
+   "published": "2026-11-11",
+   "relevance": 0,
+   "snippet": "JioStar’s Vijay Seshadri explains AI discovery at 500M-user scale. Read his lessons on evals, guardrails, and taking AI into production.",
+   "source": "OpenAI",
+   "tier": "lab",
+   "title": "JioStar’s chief architect on AI discovery at 500M-user scale"
+  },
   "8e096ada862e11a7": {
    "first_seen": "2026-11-19",
    "impact": 1,
@@ -948,6 +1356,18 @@
    "tier": "lab",
    "title": "The Gemini app is now available on lower-memory Android devices."
   },
+  "8ea1eda74f93e752": {
+   "first_seen": "2026-11-19",
+   "impact": 1,
+   "link": "https://www.edsurge.com/news/the-day-the-take-home-essay-died-how-i-stopped-grading-ai-and-started-designing-real-learning",
+   "posted": false,
+   "published": "2026-11-11",
+   "relevance": 3,
+   "snippet": "When generative AI exposed the flaws in my traditional assignments, I redesigned student learning experiences — turning AI from a cheating tool to a ...",
+   "source": "EdSurge",
+   "tier": "news",
+   "title": "The Day the Take-Home Essay Died: How I Stopped Grading AI and Started Designing Real Learning"
+  },
   "909b75797cd1319b": {
    "first_seen": "2026-11-19",
    "impact": 1,
@@ -959,6 +1379,30 @@
    "source": "Anthropic",
    "tier": "lab",
    "title": "Anthropic prices initial public offering \\ Anthropic"
+  },
+  "90d79223706ea3ab": {
+   "first_seen": "2026-11-19",
+   "impact": 0,
+   "link": "https://openai.com/business/customer-stories/gondola",
+   "posted": false,
+   "published": "2026-11-12",
+   "relevance": 0,
+   "snippet": "Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 50% and ChatGPT simplifying daily work.",
+   "source": "OpenAI",
+   "tier": "lab",
+   "title": "Gondola doubles revenue as its team builds more with Codex"
+  },
+  "9123b0ed51446124": {
+   "first_seen": "2026-11-19",
+   "impact": 1,
+   "link": "https://scale.stanford.edu/ai/repository/llm-fallacy-misattribution-ai-assisted-cognitive-workflows",
+   "posted": false,
+   "published": "2026-11-09",
+   "relevance": 2,
+   "snippet": "The rapid integration of large language models (LLMs) into everyday workflows has transformed how individuals perform cognitive tasks such as writing, programming, analysis, and multilingual communication. While prior research has focused on model reliability, hallucination, and user trust calibration, less attention has been given to how LLM usage reshapes users' perceptions of their own capabilities.",
+   "source": "Stanford SCALE",
+   "tier": "research",
+   "title": "The LLM Fallacy: Misattribution In AI-Assisted Cognitive Workflows | SCALE Initiative"
   },
   "91b1f786ee50b98f": {
    "first_seen": "2026-11-19",
@@ -996,6 +1440,18 @@
    "tier": "official",
    "title": "Work and Pensions Secretary statement on the Milburn review into young people and work"
   },
+  "932fe34bad728f30": {
+   "first_seen": "2026-11-19",
+   "impact": 0,
+   "link": "https://openai.com/index/kuken",
+   "posted": false,
+   "published": "2026-11-09",
+   "relevance": 0,
+   "snippet": "Kuken Industries uses the OpenAI API to search 70 years of cooling tower drawings. Engineers can find the drawing for a repair in 4.5 minutes, down from nearly an hour.",
+   "source": "OpenAI",
+   "tier": "lab",
+   "title": "Kuken Industries searches 70 years of drawings in minutes"
+  },
   "93abef773262babb": {
    "first_seen": "2026-11-19",
    "impact": 2,
@@ -1007,6 +1463,18 @@
    "source": "Ofqual blog",
    "tier": "official",
    "title": "AI and coursework: how we can tackle this together"
+  },
+  "95b69a24cb28fca4": {
+   "first_seen": "2026-11-19",
+   "impact": 1,
+   "link": "https://scale.stanford.edu/ai/repository/civic-education-age-al-should-we-trust-al-generated-lesson-plans",
+   "posted": false,
+   "published": "2026-11-09",
+   "relevance": 3,
+   "snippet": "Generative artificial intelligence (GenAI) technologies can offer vast professional resources for teachers, empowering them to differentiate their practice, create curricular materials, and generate lesson plans for any topic. But should these novel tools to generate classroom activities and learning experiences be trusted? This study investigates 310 AI-generated lesson plans, featuring 2,230 learning activities, created by ChatGPT, Gemini, and Copilot for the 53 content standards mandated in the Massachusetts eighth-grade United States and Massachusetts Government and Civic Life curriculum.",
+   "source": "Stanford SCALE",
+   "tier": "research",
+   "title": "Civic Education In The Age Of Al: Should We Trust Al-Generated Lesson Plans? | SCALE Initiative"
   },
   "971a8c808755c421": {
    "first_seen": "2026-11-19",
@@ -1031,6 +1499,30 @@
    "source": "DSIT",
    "tier": "official",
    "title": "Guidance: Cyber Resilience Pledge - list of signatories"
+  },
+  "9c331579e229757a": {
+   "first_seen": "2026-11-19",
+   "impact": 0,
+   "link": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+   "posted": false,
+   "published": "2026-11-09",
+   "relevance": 0,
+   "snippet": "ChatGPT Enterprise is now available through AWS Marketplace, helping organizations simplify procurement through existing AWS purchasing and billing relationships.",
+   "source": "OpenAI",
+   "tier": "lab",
+   "title": "ChatGPT Enterprise now available in AWS Marketplace"
+  },
+  "9dee1ce0ef9cae82": {
+   "first_seen": "2026-11-19",
+   "impact": 1,
+   "link": "https://www.gov.uk/government/statistics/teacher-development-inspections-and-outcomes-as-at-31-august-2026",
+   "posted": false,
+   "published": "2026-11-11",
+   "relevance": 0,
+   "snippet": "Official statistics covering initial teacher education (ITE) and inspections of early career framework (ECF) and national professional qualifications (NPQ) lead providers in the 2025 to 2026 academic year.",
+   "source": "Ofsted",
+   "tier": "official",
+   "title": "Official Statistics: Teacher development: inspections and outcomes as at 31 August 2026"
   },
   "9f2dde650fe4660c": {
    "first_seen": "2026-11-19",
@@ -1067,6 +1559,18 @@
    "source": "OpenAI",
    "tier": "lab",
    "title": "Research acceleration: The jagged frontier"
+  },
+  "a045ec708b22e25e": {
+   "first_seen": "2026-11-19",
+   "impact": 0,
+   "link": "https://openai.com/ads/blog/chatgpt-ads-increases-its-market-presence",
+   "posted": false,
+   "published": "2026-11-12",
+   "relevance": 0,
+   "snippet": "Aleph selected as ChatGPT Ads’ exclusive reseller in 44 countries to offer local invoicing, in-person support and local market expertise to brands and agencies",
+   "source": "OpenAI",
+   "tier": "lab",
+   "title": "ChatGPT Ads increases its market presence in 44 countries"
   },
   "a22a6ca92e5c69fd": {
    "first_seen": "2026-11-19",
@@ -1116,6 +1620,18 @@
    "tier": "official",
    "title": "New Champion to give unpaid carers a stronger voice"
   },
+  "a8d5fa7d24b3647f": {
+   "first_seen": "2026-11-19",
+   "impact": 3,
+   "link": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
+   "posted": false,
+   "published": "2026-11-12",
+   "relevance": 2,
+   "snippet": "",
+   "source": "Google DeepMind",
+   "tier": "lab",
+   "title": "Introducing Gemini 4 Hydrogen"
+  },
   "ac719b2922ab6e96": {
    "first_seen": "2026-11-19",
    "impact": 1,
@@ -1128,6 +1644,18 @@
    "tier": "lab",
    "title": "Advancing Claude for Financial Services \\ Anthropic"
   },
+  "ad614f81e42f72e5": {
+   "first_seen": "2026-11-19",
+   "impact": 2,
+   "link": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
+   "posted": false,
+   "published": "2026-11-12",
+   "relevance": 2,
+   "snippet": "Rotating carousel of cards with text \"Gemini 4 Hydrogen\" \"Now in Google Search\" and examples from the Google Search UI",
+   "source": "Google AI",
+   "tier": "lab",
+   "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen"
+  },
   "af54e79f3722669a": {
    "first_seen": "2026-11-19",
    "impact": 0,
@@ -1139,6 +1667,30 @@
    "source": "EdSurge",
    "tier": "news",
    "title": "Power Up Learning with an Official Pokémon Club"
+  },
+  "afb42413b9778447": {
+   "first_seen": "2026-11-19",
+   "impact": 1,
+   "link": "https://education.ec.europa.eu/resources-and-tools/documents/report-community-for-educational-innovation-education-for-green-and-digital-innovation",
+   "posted": false,
+   "published": "2026-11-11",
+   "relevance": 1,
+   "snippet": "Report: Community for educational innovation - Education for green and digital innovation holbobe Wed, 11/11/2026 - 16:45 Document library Report: Community for educational innovation - Education for green and digital innovation This report draws on the Community for Educational Innovation’s (CEI) thematic strand ‘Education for green and digital innovation’ to examine how education and training can advance Europe’s twin transition. Document library Language English",
+   "source": "European Commission (Education)",
+   "tier": "official",
+   "title": "Report: Community for educational innovation - Education for green and digital innovation"
+  },
+  "b06379671ede1f62": {
+   "first_seen": "2026-11-19",
+   "impact": 2,
+   "link": "https://openai.com/index/children-first-declaration",
+   "posted": true,
+   "published": "2026-11-12",
+   "relevance": 3,
+   "snippet": "OpenAI commits $2 million to research on AI and children’s safety. The work supports shared tools to measure risks and opportunities for young people.",
+   "source": "OpenAI",
+   "tier": "lab",
+   "title": "Supporting research on AI and children’s safety"
   },
   "b092cf9abde7ee2d": {
    "first_seen": "2026-11-19",
@@ -1212,6 +1764,18 @@
    "tier": "lab",
    "title": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise"
   },
+  "b73105fe4ec5f060": {
+   "first_seen": "2026-11-19",
+   "impact": 1,
+   "link": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/",
+   "posted": false,
+   "published": "2026-11-10",
+   "relevance": 1,
+   "snippet": "A man speaks into a phone. Text on the screen reads 'Gemini Intelligence'",
+   "source": "Google AI",
+   "tier": "lab",
+   "title": "Gemini Intelligence: New features, on more devices"
+  },
   "b898a1b2127c5756": {
    "first_seen": "2026-11-19",
    "impact": 2,
@@ -1236,6 +1800,18 @@
    "tier": "official",
    "title": "Bridge scanners and wearable safety alerts among 23 rail innovations backed with £4.8 million"
   },
+  "bad6ee94c35695d3": {
+   "first_seen": "2026-11-19",
+   "impact": 0,
+   "link": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/",
+   "posted": false,
+   "published": "2026-11-11",
+   "relevance": 1,
+   "snippet": "Tabletop is a new Google Labs experiment for group collaboration. Build interactive itineraries, polls, and brackets with your team. Join the waitlist.",
+   "source": "Google AI",
+   "tier": "lab",
+   "title": "Try Tabletop: Customizable, collaborative spaces for groups to plan, play and do more together."
+  },
   "bb8869cbc26b3bd5": {
    "first_seen": "2026-11-19",
    "impact": 1,
@@ -1248,6 +1824,18 @@
    "tier": "research",
    "title": "Educator | SCALE Initiative"
   },
+  "bc2f2470b54070b8": {
+   "first_seen": "2026-11-19",
+   "impact": 1,
+   "link": "https://www.gov.uk/government/publications/parent-pupil-and-learner-voice-omnibus-surveys-for-2025-to-2026",
+   "posted": false,
+   "published": "2026-11-10",
+   "relevance": 1,
+   "snippet": "Findings from regular surveys of primary and secondary school pupils’ parents or carers, secondary school pupils and 16 to 18 learners.",
+   "source": "DfE (AI)",
+   "tier": "official",
+   "title": "Parent, pupil and learner voice: omnibus surveys for 2025 to 2026"
+  },
   "bf934d29a1600520": {
    "first_seen": "2026-11-19",
    "impact": 1,
@@ -1259,6 +1847,18 @@
    "source": "DSIT",
    "tier": "official",
    "title": "Research: UK software market analysis"
+  },
+  "c0fa2534a88f56f1": {
+   "first_seen": "2026-11-19",
+   "impact": 1,
+   "link": "https://scale.stanford.edu/ai/repository/ai-assistance-reduces-persistence-and-hurts-independent-performance",
+   "posted": false,
+   "published": "2026-11-09",
+   "relevance": 3,
+   "snippet": "People often optimize for long-term goals in collaboration: A mentor or companion doesn't just answer questions, but also scaffolds learning, tracks progress, and prioritizes the other person's growth over immediate results. In contrast, current AI systems are fundamentally short-sighted collaborators - optimized for providing instant and complete responses, without ever saying no (unless for safety reasons). What are the consequences of this dynamic?",
+   "source": "Stanford SCALE",
+   "tier": "research",
+   "title": "AI Assistance Reduces Persistence and Hurts Independent Performance | SCALE Initiative"
   },
   "c175cb5acda98798": {
    "first_seen": "2026-11-19",
@@ -1344,6 +1944,18 @@
    "tier": "lab",
    "title": "Advancing chip design with OpenAI models"
   },
+  "ca37abd71648ef41": {
+   "first_seen": "2026-11-19",
+   "impact": 0,
+   "link": "https://www.edsurge.com/news/how-can-early-career-teachers-engage-students-try-improv",
+   "posted": false,
+   "published": "2026-11-10",
+   "relevance": 0,
+   "snippet": "Adding elements of theatrical improvisation to his science classes changed how one young teacher saw students — and himself.",
+   "source": "EdSurge",
+   "tier": "news",
+   "title": "How Can Early-Career Teachers Engage Students? Try Improv."
+  },
   "cb1d8f8bc84f7e6a": {
    "first_seen": "2026-11-19",
    "impact": 1,
@@ -1391,6 +2003,30 @@
    "source": "GOV.UK (AI in education)",
    "tier": "official",
    "title": "Behind the grades: how can you trust your outcomes?"
+  },
+  "cce714811b519a82": {
+   "first_seen": "2026-11-19",
+   "impact": 1,
+   "link": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+   "posted": false,
+   "published": "2026-11-11",
+   "relevance": 1,
+   "snippet": "Meet the Gemini Decisions API, powered by our state-of-the-art model Gemini Decision for fast, calibrated multimodal decisions.",
+   "source": "Google AI",
+   "tier": "lab",
+   "title": "Gemini Decisions API: Fast, calibrated multimodal decisions"
+  },
+  "cd88f6cf71e07eac": {
+   "first_seen": "2026-11-19",
+   "impact": 1,
+   "link": "https://deepmind.google/blog/opening-the-datasets-behind-our-ai-weather-models/",
+   "posted": false,
+   "published": "2026-11-10",
+   "relevance": 0,
+   "snippet": "Foundational precipitation and geostationary satellite datasets to observe the planet clearly.",
+   "source": "Google DeepMind",
+   "tier": "lab",
+   "title": "Opening the datasets behind our AI weather models"
   },
   "cfcc7acb02e9ca79": {
    "first_seen": "2026-11-19",
@@ -1440,6 +2076,18 @@
    "tier": "lab",
    "title": "Shield helps technicians hand off legacy portal work with OpenAI"
   },
+  "d1af56bdf9f43bd4": {
+   "first_seen": "2026-11-19",
+   "impact": 1,
+   "link": "https://www.gov.uk/government/publications/supporting-send-reform-developing-the-experts-at-hand-offer",
+   "posted": false,
+   "published": "2026-11-11",
+   "relevance": 1,
+   "snippet": "Information for local authorities, integrated care boards, those leading and working in mainstream settings, parents and carers on our expectations in year 1.",
+   "source": "DfE (AI)",
+   "tier": "official",
+   "title": "Supporting SEND reform: developing the Experts at Hand offer"
+  },
   "d6fe0cff82a91bb2": {
    "first_seen": "2026-11-19",
    "impact": 1,
@@ -1475,6 +2123,66 @@
    "source": "Ofqual",
    "tier": "official",
    "title": "Guidance: AI in coursework: resources for schools"
+  },
+  "d96b6d215328d13b": {
+   "first_seen": "2026-11-19",
+   "impact": 0,
+   "link": "https://wonkhe.com/blogs/performance-metrics-dont-just-measure-academic-culture-they-help-create-it",
+   "posted": false,
+   "published": "2026-11-12",
+   "relevance": 0,
+   "snippet": "Shahenda Shehata argues a performance system can hit its own targets while weakening the trust and collegiality that good academic work depends on",
+   "source": "Wonkhe",
+   "tier": "news",
+   "title": "Performance metrics don’t just measure academic culture – they help create it"
+  },
+  "d9cffb703d62f2e3": {
+   "first_seen": "2026-11-19",
+   "impact": 0,
+   "link": "https://www.gov.uk/government/publications/rise-west-midlands",
+   "posted": false,
+   "published": "2026-11-10",
+   "relevance": 0,
+   "snippet": "The regional improvement for standards and excellence (RISE) programme for the West Midlands, including the regional plan and available support.",
+   "source": "DfE (AI)",
+   "tier": "official",
+   "title": "RISE: West Midlands"
+  },
+  "d9ea23c8bb13fc9d": {
+   "first_seen": "2026-11-19",
+   "impact": 0,
+   "link": "https://www.gov.uk/government/statistical-data-sets/monthly-management-information-ofsteds-school-inspections-outcomes",
+   "posted": false,
+   "published": "2026-11-11",
+   "relevance": 0,
+   "snippet": "Management information aggregated and published monthly, and publications of inspections and outcomes from 2005 to 2015 and 2015 to 2019.",
+   "source": "Ofsted",
+   "tier": "official",
+   "title": "State-funded school inspections and outcomes: management information"
+  },
+  "da67ff3f140ff032": {
+   "first_seen": "2026-11-19",
+   "impact": 1,
+   "link": "https://www.gov.uk/government/statistics/announcements/reviews-of-marking-and-moderation-for-gcse-as-and-a-level-summer-2026-exam-series",
+   "posted": false,
+   "published": "2026-11-09",
+   "relevance": 1,
+   "snippet": "Statistics on the number of reviews of marking, reviews of moderation and administrative error reviews for GCSE, AS and A level qualifications in England.",
+   "source": "Ofqual",
+   "tier": "official",
+   "title": "Official Statistics: Reviews of marking and moderation for GCSE, AS and A level: summer 2026 exam series"
+  },
+  "db32bc3e4244b78f": {
+   "first_seen": "2026-11-19",
+   "impact": 1,
+   "link": "https://scale.stanford.edu/ai/repository/encouraging-productive-struggle-age-generative-al",
+   "posted": false,
+   "published": "2026-11-09",
+   "relevance": 3,
+   "snippet": "Computer science (CS) educators are increasingly concerned about students offloading thinking to generative AI (GenAI) tools. Reflecting on experiences teaching a foundational AI course, the authors argue that the community must rethink supportive environments for productive failure and better connect CS concepts to industry contexts to encourage interdisciplinary thinking alongside technical depth.",
+   "source": "Stanford SCALE",
+   "tier": "research",
+   "title": "Encouraging productive struggle in the age of generative Al | SCALE Initiative"
   },
   "ddfb17ba526eeda8": {
    "first_seen": "2026-11-19",
@@ -1608,6 +2316,18 @@
    "tier": "official",
    "title": "Guidance: Childminder agencies: registration and suitability"
   },
+  "e879c6fc35d4933f": {
+   "first_seen": "2026-11-19",
+   "impact": 1,
+   "link": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+   "posted": false,
+   "published": "2026-11-11",
+   "relevance": 0,
+   "snippet": "Predicting how DNA sequences and their variations impact specific human cell types and disease.",
+   "source": "Google DeepMind",
+   "tier": "lab",
+   "title": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease"
+  },
   "e9989084faee1250": {
    "first_seen": "2026-11-19",
    "impact": 1,
@@ -1619,6 +2339,18 @@
    "source": "DfE",
    "tier": "official",
    "title": "Post-16 level 2 and 3 qualifications 2028: health and care"
+  },
+  "ea031f3ae6ab8cba": {
+   "first_seen": "2026-11-19",
+   "impact": 3,
+   "link": "https://www.hepi.ac.uk/2026/11/11/making-ai-work-for-students/",
+   "posted": true,
+   "published": "2026-11-11",
+   "relevance": 3,
+   "snippet": "This blog was kindly authored by Josh Fleming, Director of Strategy and Delivery at the Office for Students and Kathryn Harrison-Graves, Deputy CEO at Advance HE. This blog reflects on new, joint research into the implications of AI for higher education. The research brings together the perspectives of more than 300 students and academic staff: […] The post Making AI work for students appeared first on HEPI .",
+   "source": "HEPI",
+   "tier": "news",
+   "title": "Making AI work for students"
   },
   "ea28af5bf4e02ab5": {
    "first_seen": "2026-11-19",
@@ -1680,6 +2412,42 @@
    "tier": "lab",
    "title": "Broadening access to AI for scientists"
   },
+  "f28f90d2895a812c": {
+   "first_seen": "2026-11-19",
+   "impact": 0,
+   "link": "https://openai.com/index/gilbert-tobin-sam-nickless",
+   "posted": false,
+   "published": "2026-11-12",
+   "relevance": 0,
+   "snippet": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.",
+   "source": "OpenAI",
+   "tier": "lab",
+   "title": "Gilbert + Tobin rethinks the business of law with AI"
+  },
+  "f37b680abcf7adcb": {
+   "first_seen": "2026-11-19",
+   "impact": 1,
+   "link": "https://openai.com/index/control-room",
+   "posted": false,
+   "published": "2026-11-09",
+   "relevance": 1,
+   "snippet": "Learn how OpenAI’s Control Room tracks model workloads across our research infrastructure and can rapidly stop them when safety or security concerns arise.",
+   "source": "OpenAI",
+   "tier": "lab",
+   "title": "Control Room: A central system to track and stop model workloads across our research infrastructure"
+  },
+  "f62fabb2ed27cf45": {
+   "first_seen": "2026-11-19",
+   "impact": 2,
+   "link": "https://www.bbc.co.uk/news/articles/c51kdk422w8jo?at_medium=RSS&at_campaign=rss",
+   "posted": false,
+   "published": "2026-11-10",
+   "relevance": 2,
+   "snippet": "The government says it is strengthening its guidance for schools in England, which came into force in June.",
+   "source": "BBC Education",
+   "tier": "news",
+   "title": "Phones to be banned from pupils' bags or pockets under stricter rules for schools in England"
+  },
   "f69e0eff4a38f9ef": {
    "first_seen": "2026-11-19",
    "impact": 3,
@@ -1691,6 +2459,18 @@
    "source": "GOV.UK (AI in education)",
    "tier": "official",
    "title": "Government commits to new settlement for young people and to invest in success rather than pay for failure"
+  },
+  "f6cf5503f46a1a7a": {
+   "first_seen": "2026-11-19",
+   "impact": 2,
+   "link": "https://www.gov.uk/government/statistics/announcements/malpractice-in-gcse-as-and-a-level-summer-2026-exam-series",
+   "posted": false,
+   "published": "2026-11-09",
+   "relevance": 2,
+   "snippet": "Number of cases of malpractice in England where a penalty was issued, for GCSE, AS and A level, in the summer exam series.",
+   "source": "Ofqual",
+   "tier": "official",
+   "title": "Official Statistics: Malpractice in GCSE, AS and A level: summer 2026 exam series"
   },
   "f858299e46853a7e": {
    "first_seen": "2026-11-19",
@@ -1715,6 +2495,30 @@
    "source": "OpenAI",
    "tier": "lab",
    "title": "Science at the Frontier: How scientists use ChatGPT"
+  },
+  "f8c1a7370c130fe5": {
+   "first_seen": "2026-11-19",
+   "impact": 1,
+   "link": "https://deepmind.google/blog/introducing-alphaproof-code/",
+   "posted": false,
+   "published": "2026-11-10",
+   "relevance": 0,
+   "snippet": "AlphaProof Code agents wrote three million lines of proofs in Lean to verify Signal’s core encryption.",
+   "source": "Google DeepMind",
+   "tier": "lab",
+   "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth"
+  },
+  "fa67ea41cc9f8c9c": {
+   "first_seen": "2026-11-19",
+   "impact": 3,
+   "link": "https://www.bbc.co.uk/news/articles/cw0k0klz2x37o?at_medium=RSS&at_campaign=rss",
+   "posted": true,
+   "published": "2026-11-11",
+   "relevance": 3,
+   "snippet": "The Office for Students says students can frequently use AI \"in ways that cannot be reliably detected\".",
+   "source": "BBC Education",
+   "tier": "news",
+   "title": "Students passing university assessments in minutes using AI, regulator warns"
   },
   "fa706dccdf822632": {
    "first_seen": "2026-11-19",
@@ -1751,6 +2555,18 @@
    "source": "Wonkhe",
    "tier": "news",
    "title": "The Post-18 Project: Civic at the crossroads"
+  },
+  "fc6b6a56df7b3650": {
+   "first_seen": "2026-11-19",
+   "impact": 2,
+   "link": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
+   "posted": false,
+   "published": "2026-11-10",
+   "relevance": 2,
+   "snippet": "",
+   "source": "Google DeepMind",
+   "tier": "lab",
+   "title": "Gemini 4 Carbon is now available"
   },
   "fee66cab79f5ce88": {
    "first_seen": "2026-11-19",
@@ -1799,6 +2615,18 @@
    "source": "GOV.UK (AI in education)",
    "tier": "official",
    "title": "Study to examine skills retention in UK financial services"
+  },
+  "ff974da23b0af0a5": {
+   "first_seen": "2026-11-19",
+   "impact": 0,
+   "link": "https://www.hepi.ac.uk/2026/11/10/gen-alpha-is-coming-what-are-three-priorities-for-universities-when-resources-are-tight/",
+   "posted": false,
+   "published": "2026-11-10",
+   "relevance": 1,
+   "snippet": "This blog was kindly authored by Dr Steve Briggs, Director of Learning, Teaching and Libraries at the University of Bedfordshire. The start of a new academic year is often a time for reflection. This year, I anticipate that much reflective bandwidth will be dedicated to how to navigate the many challenges facing the higher education […] The post Gen Alpha is coming: what are three priorities for universities when resources are tight? appeared first on HEPI .",
+   "source": "HEPI",
+   "tier": "news",
+   "title": "Gen Alpha is coming: what are three priorities for universities when resources are tight?"
   }
  },
  "last_alert_date": "",
