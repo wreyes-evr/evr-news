@@ -528,6 +528,18 @@
    "tier": "official",
    "title": "Guidance: Children in need census 2027 to 2028: guide"
   },
+  "2d33b438ce1554c6": {
+   "first_seen": "2026-11-21",
+   "impact": 0,
+   "link": "https://www.gov.uk/government/speeches/chief-of-defence-intelligence-speech-at-cambridge-intelligence-seminar-20-november-2026",
+   "posted": false,
+   "published": "2026-11-21",
+   "relevance": 0,
+   "snippet": "Lt Gen Matthew Jones, Chief of Defence Intelligence speech at Cambridge Intelligence Seminar",
+   "source": "GOV.UK (AI in education)",
+   "tier": "official",
+   "title": "Chief of Defence Intelligence speech at Cambridge Intelligence Seminar: 20 November 2026"
+  },
   "2d52dc04cacbd6e5": {
    "first_seen": "2026-11-20",
    "impact": 1,
@@ -815,6 +827,18 @@
    "source": "Wonkhe",
    "tier": "news",
    "title": "Universities can’t do place-based working without doing politics"
+  },
+  "3ea993db7e3c60d1": {
+   "first_seen": "2026-11-21",
+   "impact": 1,
+   "link": "https://openai.com/index/combatting-adversarial-distillation",
+   "posted": false,
+   "published": "2026-11-20",
+   "relevance": 1,
+   "snippet": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
+   "source": "OpenAI",
+   "tier": "lab",
+   "title": "Combatting adversarial distillation"
   },
   "3fee4bafbfa32636": {
    "first_seen": "2026-11-19",
@@ -1296,6 +1320,18 @@
    "tier": "official",
    "title": "UK launches new platform in Kenya to help businesses find investors and create jobs"
   },
+  "608bd0ca07d75125": {
+   "first_seen": "2026-11-21",
+   "impact": 1,
+   "link": "https://wonkhe.com/blogs/two-years-on-has-the-prescription-for-pharmacy-recruitment-changed",
+   "posted": false,
+   "published": "2026-11-21",
+   "relevance": 1,
+   "snippet": "We’ve all heard the stories of high-tariff provider dropping entry requirements – but is there evidence in one, small, professional subject area? David Kernohan takes the tableaus",
+   "source": "Wonkhe",
+   "tier": "news",
+   "title": "Two years on, has the prescription for pharmacy recruitment changed?"
+  },
   "60cd64d25d86fbb3": {
    "first_seen": "2026-11-19",
    "impact": 1,
@@ -1536,6 +1572,18 @@
    "tier": "official",
    "title": "Career Insight: Aashna, Trainee Solicitor, HMRC"
   },
+  "8335c2c7854fdaec": {
+   "first_seen": "2026-11-21",
+   "impact": 1,
+   "link": "https://www.gov.uk/government/publications/lifelong-learning-entitlement-modular-funding-expression-of-interest",
+   "posted": false,
+   "published": "2026-11-20",
+   "relevance": 1,
+   "snippet": "How OfS-registered providers that intend to deliver LLE-funded modular provision from September 2027 can prepare to submit an expression of interest.",
+   "source": "DfE",
+   "tier": "official",
+   "title": "Guidance: Lifelong learning entitlement modular funding: expression of interest"
+  },
   "8508423097450e64": {
    "first_seen": "2026-11-19",
    "impact": 3,
@@ -1595,6 +1643,18 @@
    "source": "OpenAI",
    "tier": "lab",
    "title": "A step toward defining the Standard Model on a lattice"
+  },
+  "8904b4115a6688ff": {
+   "first_seen": "2026-11-21",
+   "impact": 2,
+   "link": "https://digital-strategy.ec.europa.eu/en/news/european-digital-infrastructure-consortium-launches-today-strengthen-digital-sovereignty-education",
+   "posted": false,
+   "published": "2026-11-20",
+   "relevance": 2,
+   "snippet": "European Digital Infrastructure Consortium launches today to strengthen digital sovereignty in education Anonymous (not verified) Fri, 11/20/2026 - 11:30 Today, the European Commission and eight Member States are launching the European Digital Infrastructure Consortium on Education (EDU-EDIC) to pool resources and develop shared, secure and interoperable digital infrastructure and services for education. GettyImages © anyaberkut The new consortium on education brings together Belgium, Croatia, Finland, France, Greece, Slovenia, Spain and the Netherlands, which will be hosting the EDIC. The ini",
+   "source": "EC Digital Strategy",
+   "tier": "official",
+   "title": "European Digital Infrastructure Consortium launches today to strengthen digital sovereignty in education"
   },
   "893331b061f3c395": {
    "first_seen": "2026-11-19",
@@ -2051,6 +2111,18 @@
    "source": "OpenAI",
    "tier": "lab",
    "title": "Research acceleration: The jagged frontier"
+  },
+  "a01e25a97fa39ac9": {
+   "first_seen": "2026-11-21",
+   "impact": 1,
+   "link": "https://www.bbc.co.uk/news/articles/ck9q84gwr533o?at_medium=RSS&at_campaign=rss",
+   "posted": false,
+   "published": "2026-11-21",
+   "relevance": 0,
+   "snippet": "There has been a drop in teenage girls participating in sport. But what are the reasons behind that?",
+   "source": "BBC Education",
+   "tier": "news",
+   "title": "'My biggest fear was getting changed in front of them' - why teenage girls stop playing sport"
   },
   "a02972f8692f460f": {
    "first_seen": "2026-11-20",
@@ -2652,6 +2724,18 @@
    "tier": "lab",
    "title": "Opening the datasets behind our AI weather models"
   },
+  "cd9f0de92c587128": {
+   "first_seen": "2026-11-21",
+   "impact": 1,
+   "link": "https://www.hepi.ac.uk/2026/11/21/weekend-reading-hera-at-10-the-providers-building-the-future-of-higher-education/",
+   "posted": false,
+   "published": "2026-11-21",
+   "relevance": 1,
+   "snippet": "This blog was kindly authored by Alex Proudfoot, Chief Executive of Independent Higher Education. On 16 May 2016, a quietly revolutionary document with the name Success as a Knowledge Economy slipped out of the Government communications machine and rippled across the higher education sector. The Higher Education and Research Act that followed would transform the […] The post WEEKEND READING: HERA at 10: the providers building the future of higher education appeared first on HEPI .",
+   "source": "HEPI",
+   "tier": "news",
+   "title": "WEEKEND READING: HERA at 10: the providers building the future of higher education"
+  },
   "cfcc7acb02e9ca79": {
    "first_seen": "2026-11-19",
    "impact": 1,
@@ -2699,6 +2783,18 @@
    "source": "OpenAI",
    "tier": "lab",
    "title": "Shield helps technicians hand off legacy portal work with OpenAI"
+  },
+  "d15c45643214b444": {
+   "first_seen": "2026-11-21",
+   "impact": 1,
+   "link": "https://openai.com/business/customer-stories/hebbia",
+   "posted": false,
+   "published": "2026-11-20",
+   "relevance": 1,
+   "snippet": "Hebbia tested GPT-6 Astra for financial research. Its prerelease evaluations found gains in source coverage, citation relevance, and presentation quality.",
+   "source": "OpenAI",
+   "tier": "lab",
+   "title": "Hebbia sees improvements in financial research with GPT-6 Astra"
   },
   "d1af56bdf9f43bd4": {
    "first_seen": "2026-11-19",
@@ -3180,6 +3276,18 @@
    "tier": "lab",
    "title": "Control Room: A central system to track and stop model workloads across our research infrastructure"
   },
+  "f4784c30400364a2": {
+   "first_seen": "2026-11-21",
+   "impact": 1,
+   "link": "https://openai.com/index/introducing-medchembench",
+   "posted": false,
+   "published": "2026-11-20",
+   "relevance": 1,
+   "snippet": "MedChemBench evaluates how well AI models interpret molecular structures, reason from experimental evidence, and select compounds in early drug discovery.",
+   "source": "OpenAI",
+   "tier": "lab",
+   "title": "Can AI help scientists identify promising drug candidates?"
+  },
   "f62fabb2ed27cf45": {
    "first_seen": "2026-11-19",
    "impact": 2,
@@ -3387,5 +3495,5 @@
  },
  "last_alert_date": "",
  "last_digest_date": "2026-11-20",
- "last_run_date": "2026-11-20"
+ "last_run_date": "2026-11-21"
 }
