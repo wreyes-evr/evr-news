@@ -372,6 +372,18 @@
    "tier": "research",
    "title": "Marked Pedagogies: Examining Linguistic Biases in Personalized Automated Writing Feedback | SCALE Initiative"
   },
+  "231ee091cb846687": {
+   "first_seen": "2026-11-22",
+   "impact": 1,
+   "link": "https://wonkhe.com/blogs/inside-the-overnight-row-over-eu-fees",
+   "posted": false,
+   "published": "2026-11-22",
+   "relevance": 0,
+   "snippet": "The UK says the reset deal is done, but the EU has put in writing that it won’t sign until tuition fees are settled. Jim Dickinson unpicks how one summit produced two texts",
+   "source": "Wonkhe",
+   "tier": "news",
+   "title": "Inside the overnight row over EU fees"
+  },
   "2376e2e491ad5d4e": {
    "first_seen": "2026-11-20",
    "impact": 1,
@@ -1523,6 +1535,18 @@
    "source": "Google DeepMind",
    "tier": "lab",
    "title": "Gemini Robotics 2.5 accelerates real-world general dexterity"
+  },
+  "7ed9e371ebd61f7f": {
+   "first_seen": "2026-11-22",
+   "impact": 1,
+   "link": "https://www.gov.uk/government/news/pupils-learn-money-skills-for-real-life-in-curriculum-shake-up",
+   "posted": false,
+   "published": "2026-11-22",
+   "relevance": 1,
+   "snippet": "Pupils to learn money skills for real life in curriculum shake-up.",
+   "source": "DfE",
+   "tier": "official",
+   "title": "Pupils learn money skills for real life in curriculum shake-up"
   },
   "7f359a5e2d77c4dd": {
    "first_seen": "2026-11-19",
@@ -2736,6 +2760,18 @@
    "tier": "news",
    "title": "WEEKEND READING: HERA at 10: the providers building the future of higher education"
   },
+  "ceef4288b12746d6": {
+   "first_seen": "2026-11-22",
+   "impact": 1,
+   "link": "https://wonkhe.com/blogs/the-milburn-reviews-proposals-on-apprenticeships-miss-the-bigger-economic-picture",
+   "posted": false,
+   "published": "2026-11-22",
+   "relevance": 0,
+   "snippet": "Alan Milburn’s report would reduce apprenticeship opportunities for those aged 25 and up. Mandy Crawford-Lee pushes back",
+   "source": "Wonkhe",
+   "tier": "news",
+   "title": "The Milburn review’s proposals on apprenticeships miss the bigger economic picture"
+  },
   "cfcc7acb02e9ca79": {
    "first_seen": "2026-11-19",
    "impact": 1,
@@ -3216,6 +3252,18 @@
    "tier": "lab",
    "title": "Our first phase of embedded assessments"
   },
+  "ec49c3893ca58433": {
+   "first_seen": "2026-11-22",
+   "impact": 1,
+   "link": "https://www.bbc.co.uk/news/articles/cm7527kp4qrpo?at_medium=RSS&at_campaign=rss",
+   "posted": false,
+   "published": "2026-11-22",
+   "relevance": 1,
+   "snippet": "Musicians, comedians and dancers are among those finding their videos cloned with AI generated characters.",
+   "source": "BBC Education",
+   "tier": "news",
+   "title": "The real people finding their work copied and stolen by AI characters"
+  },
   "f054a54f8228cfac": {
    "first_seen": "2026-11-19",
    "impact": 0,
@@ -3495,5 +3543,5 @@
  },
  "last_alert_date": "",
  "last_digest_date": "2026-11-20",
- "last_run_date": "2026-11-21"
+ "last_run_date": "2026-11-22"
 }
