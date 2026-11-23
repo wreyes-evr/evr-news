@@ -28,7 +28,7 @@
    "first_seen": "2026-11-19",
    "impact": 2,
    "link": "https://openai.com/index/closing-ai-guidance-gap-education",
-   "posted": false,
+   "posted": true,
    "published": "2026-11-10",
    "relevance": 3,
    "snippet": "New ThinkYoung research and lessons from OpenAI’s EMEA education partnerships on supporting teachers, AI literacy, and independent learning.",
@@ -192,6 +192,18 @@
    "tier": "lab",
    "title": "Funding better evaluations of AI’s impact on wellbeing \\ Anthropic"
   },
+  "0c9e20440a37de7c": {
+   "first_seen": "2026-11-23",
+   "impact": 1,
+   "link": "https://www.edsurge.com/news/if-representation-matters-then-authenticity-does-too",
+   "posted": false,
+   "published": "2026-11-23",
+   "relevance": 0,
+   "snippet": "As a Black male kindergarten teacher, I spent a decade defying stereotypes. To keep people like me in the classroom, schools must stop boxing us in.",
+   "source": "EdSurge",
+   "tier": "news",
+   "title": "If Representation Matters, Then Authenticity Does Too"
+  },
   "0ee92d00ba8ab01c": {
    "first_seen": "2026-11-19",
    "impact": 0,
@@ -227,6 +239,18 @@
    "source": "Ofqual",
    "tier": "official",
    "title": "Regulating enterprise and professional services V Levels at subject level"
+  },
+  "140a8bd05a3326c5": {
+   "first_seen": "2026-11-23",
+   "impact": 1,
+   "link": "https://hechingerreport.org/opinion-its-time-to-put-curiosity-creativity-and-critical-thinking-first-in-the-early-learning-years/",
+   "posted": false,
+   "published": "2026-11-23",
+   "relevance": 1,
+   "snippet": "Early education is often judged by how quickly children master the 3 Rs: reading, writing and arithmetic. Those skills are essential, but not sufficient. Children also need the 3 Cs: curiosity, creativity and critical thinking. We often treat the 3 Cs as “nice-to-haves” after children master reading, writing and arithmetic. But that gets the sequence […] The post OPINION: It’s time to put curiosity, creativity and critical thinking first in the early learning years appeared first on The Hechinger Report .",
+   "source": "Hechinger Report",
+   "tier": "news",
+   "title": "OPINION: It’s time to put curiosity, creativity and critical thinking first in the early learning years"
   },
   "14eef01dc0f429cb": {
    "first_seen": "2026-11-19",
@@ -347,6 +371,18 @@
    "source": "DfE",
    "tier": "official",
    "title": "Government fires starting gun on new settlement for young people"
+  },
+  "1bd849c55fb4b3d3": {
+   "first_seen": "2026-11-23",
+   "impact": 1,
+   "link": "https://www.gov.uk/government/statistics/announcements/further-education-workforce-in-england--6",
+   "posted": false,
+   "published": "2026-11-23",
+   "relevance": 1,
+   "snippet": "Statistics on the size and characteristics of the further education workforce in England.",
+   "source": "DfE",
+   "tier": "official",
+   "title": "Official Statistics: Further education workforce in England"
   },
   "1ff74ee2cb106637": {
    "first_seen": "2026-11-19",
@@ -660,6 +696,18 @@
    "tier": "news",
    "title": "Cutting Disabled Students’ Allowance software risks a postcode lottery for students"
   },
+  "316a258c03fd611d": {
+   "first_seen": "2026-11-23",
+   "impact": 0,
+   "link": "https://www.gov.uk/government/news/british-week-2026-celebrates-uk-cameroon-partnership",
+   "posted": false,
+   "published": "2026-11-23",
+   "relevance": 0,
+   "snippet": "Under the theme \"Connect Collaborate Create Celebrate”, British Week showcases a relationship built on partnership, mutual benefit and shared ambition.",
+   "source": "GOV.UK (AI in education)",
+   "tier": "official",
+   "title": "British Week 2026 celebrates UK-Cameroon partnership"
+  },
   "31d0211125a88e71": {
    "first_seen": "2026-11-20",
    "impact": 0,
@@ -779,6 +827,18 @@
    "source": "OpenAI",
    "tier": "lab",
    "title": "At Holiday Extras, dots get to work before anyone asks"
+  },
+  "39c2da17cef629dc": {
+   "first_seen": "2026-11-23",
+   "impact": 1,
+   "link": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/",
+   "posted": false,
+   "published": "2026-11-23",
+   "relevance": 1,
+   "snippet": "Google Search bar with the text \"Personal Intelligence\" surrounded by the Google Wallet, Google Drive, GMail, Google Photos, Google Calendar, and Google G logo icons",
+   "source": "Google AI",
+   "tier": "lab",
+   "title": "A more tailored Google Search that’s uniquely yours"
   },
   "3b1f5b51dbd53ea6": {
    "first_seen": "2026-11-19",
@@ -1156,7 +1216,7 @@
    "first_seen": "2026-11-19",
    "impact": 2,
    "link": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
-   "posted": false,
+   "posted": true,
    "published": "2026-11-17",
    "relevance": 2,
    "snippet": "Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.",
@@ -1236,6 +1296,18 @@
    "tier": "news",
    "title": "Is there bad news for young people in Wales' budget?"
   },
+  "5b0bce6d5e80ed80": {
+   "first_seen": "2026-11-23",
+   "impact": 1,
+   "link": "https://www.gov.uk/government/publications/initial-teacher-training-itt-handbook",
+   "posted": false,
+   "published": "2026-11-23",
+   "relevance": 1,
+   "snippet": "A handbook for all ITT providers to support the ITT criteria.",
+   "source": "DfE",
+   "tier": "official",
+   "title": "Guidance: Initial teacher training (ITT) handbook"
+  },
   "5b0f73df89a6e310": {
    "first_seen": "2026-11-19",
    "impact": 0,
@@ -1308,6 +1380,18 @@
    "tier": "official",
    "title": "Official Statistics: Further education and skills inspections and outcomes as at 31 August 2026"
   },
+  "5daade6510e5d32d": {
+   "first_seen": "2026-11-23",
+   "impact": 0,
+   "link": "https://www.bbc.co.uk/news/articles/c617kj1j1x4jo?at_medium=RSS&at_campaign=rss",
+   "posted": false,
+   "published": "2026-11-23",
+   "relevance": 0,
+   "snippet": "Expert tips on how to get along with the mums and dads of your child's half-siblings.",
+   "source": "BBC Education",
+   "tier": "news",
+   "title": "Friends were wary of me holidaying with my ex's former wife and kids - but our blended family works"
+  },
   "5e99d69f3732d6a7": {
    "first_seen": "2026-11-19",
    "impact": 1,
@@ -1355,6 +1439,18 @@
    "source": "HEPI",
    "tier": "news",
    "title": "Counted but not consulted: do students recognise widening participation support as being for them?"
+  },
+  "61dcf1169479ac82": {
+   "first_seen": "2026-11-23",
+   "impact": 1,
+   "link": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
+   "posted": false,
+   "published": "2026-11-23",
+   "relevance": 0,
+   "snippet": "Using agent teams and formal verification to improve quantum algorithms for fusion and chemistry.",
+   "source": "Google DeepMind",
+   "tier": "lab",
+   "title": "Finding faster quantum algorithms with agents and formal verification"
   },
   "655447d9d7392723": {
    "first_seen": "2026-11-20",
@@ -1440,6 +1536,18 @@
    "tier": "lab",
    "title": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT"
   },
+  "6f47fe7de2e0f987": {
+   "first_seen": "2026-11-23",
+   "impact": 1,
+   "link": "https://hechingerreport.org/proof-points-3-cellphone-ban-studies/",
+   "posted": false,
+   "published": "2026-11-23",
+   "relevance": 1,
+   "snippet": "Since 2023, cellphone use during the school day has been banned or restricted in at least 40 states and the District of Columbia, in the hope that reducing digital distractions would help students focus on their lessons. So how’s it working? Last week researchers at Harvard University released the third major study of cellphone limits […] The post Three studies in a row show teeny-tiny or zero academic gains from school cellphone bans appeared first on The Hechinger Report .",
+   "source": "Hechinger Report",
+   "tier": "news",
+   "title": "Three studies in a row show teeny-tiny or zero academic gains from school cellphone bans"
+  },
   "738a50bc03162734": {
    "first_seen": "2026-11-19",
    "impact": 1,
@@ -1463,6 +1571,18 @@
    "source": "Wonkhe",
    "tier": "news",
    "title": "Scotland is leading the way on values-based AI principles"
+  },
+  "77194af284f42d13": {
+   "first_seen": "2026-11-23",
+   "impact": 2,
+   "link": "https://www.gov.uk/government/publications/initial-teacher-training-criteria",
+   "posted": false,
+   "published": "2026-11-23",
+   "relevance": 1,
+   "snippet": "Advice on the mandatory criteria that organisations should meet to provide initial teacher training leading to qualified teacher status in the 2026 to 2027 academic year.",
+   "source": "DfE",
+   "tier": "official",
+   "title": "Guidance: Initial teacher training (ITT): criteria and supporting advice"
   },
   "77744d74ac97f168": {
    "first_seen": "2026-11-20",
@@ -1572,6 +1692,18 @@
    "tier": "official",
    "title": "Guidance: T Level funding"
   },
+  "809319b67b0f9673": {
+   "first_seen": "2026-11-23",
+   "impact": 1,
+   "link": "https://www.hepi.ac.uk/2026/11/23/people-at-the-heart-of-policy-implementation/",
+   "posted": false,
+   "published": "2026-11-23",
+   "relevance": 1,
+   "snippet": "This blog was kindly authored by Professor Catherine O’Connor, Deputy Vice-Chancellor Education and Student Experience, University of Westminster. Transition from policy to practical implementation is central to higher education endeavours. This can sound like a short hop and an easy step to take to get us where we need to be with everyone on board. In reality, […] The post People at the heart of policy implementation appeared first on HEPI .",
+   "source": "HEPI",
+   "tier": "news",
+   "title": "People at the heart of policy implementation"
+  },
   "80b38ea7da372c49": {
    "first_seen": "2026-11-19",
    "impact": 0,
@@ -1632,6 +1764,18 @@
    "tier": "news",
    "title": "What does Neet stand for and why does the UK have so many?"
   },
+  "863a782bb5ea3a8e": {
+   "first_seen": "2026-11-23",
+   "impact": 1,
+   "link": "https://www.gov.uk/government/news/yjb-responds-to-the-childrens-commissioners-plan-to-transform-education-in-yois-report",
+   "posted": false,
+   "published": "2026-11-23",
+   "relevance": 1,
+   "snippet": "…The Youth Justice Board's (YJB) response to the publication of the Children’s Commissioner for England's plan to transform education in Young Offender Institutions (YOIs).…",
+   "source": "GOV.UK (AI in education)",
+   "tier": "official",
+   "title": "YJB responds to the Children’s Commissioner’s plan to transform education in YOIs report"
+  },
   "87253efedaff810e": {
    "first_seen": "2026-11-19",
    "impact": 1,
@@ -1672,7 +1816,7 @@
    "first_seen": "2026-11-21",
    "impact": 2,
    "link": "https://digital-strategy.ec.europa.eu/en/news/european-digital-infrastructure-consortium-launches-today-strengthen-digital-sovereignty-education",
-   "posted": false,
+   "posted": true,
    "published": "2026-11-20",
    "relevance": 2,
    "snippet": "European Digital Infrastructure Consortium launches today to strengthen digital sovereignty in education Anonymous (not verified) Fri, 11/20/2026 - 11:30 Today, the European Commission and eight Member States are launching the European Digital Infrastructure Consortium on Education (EDU-EDIC) to pool resources and develop shared, secure and interoperable digital infrastructure and services for education. GettyImages © anyaberkut The new consortium on education brings together Belgium, Croatia, Finland, France, Greece, Slovenia, Spain and the Netherlands, which will be hosting the EDIC. The ini",
@@ -1727,6 +1871,18 @@
    "source": "Wonkhe",
    "tier": "news",
    "title": "Inflation is papering over a £6.4bn hole in the student loan book"
+  },
+  "8aadd001e6355835": {
+   "first_seen": "2026-11-23",
+   "impact": 0,
+   "link": "https://www.gov.uk/government/news/the-uk-and-samoa-celebrate-his-majesty-the-kings-birthday",
+   "posted": false,
+   "published": "2026-11-23",
+   "relevance": 0,
+   "snippet": "The event brought together guests from across Samoa to mark the King's birthday while celebrating the enduring partnership between Samoa and the United Kingdom.",
+   "source": "GOV.UK (AI in education)",
+   "tier": "official",
+   "title": "The UK and Samoa celebrate His Majesty The King’s Birthday"
   },
   "8b6ac2940fdc0d0e": {
    "first_seen": "2026-11-19",
@@ -1956,6 +2112,18 @@
    "tier": "official",
    "title": "AI and coursework: how we can tackle this together"
   },
+  "9591107c9ba80fb1": {
+   "first_seen": "2026-11-23",
+   "impact": 1,
+   "link": "https://www.gov.uk/government/publications/monitor-your-school-attendance-user-guide",
+   "posted": false,
+   "published": "2026-11-23",
+   "relevance": 0,
+   "snippet": "Guidance for schools, academy trusts and local authorities on using the monitor your school attendance tool.",
+   "source": "DfE",
+   "tier": "official",
+   "title": "Guidance: Monitor your school attendance: user guide"
+  },
   "95b69a24cb28fca4": {
    "first_seen": "2026-11-19",
    "impact": 1,
@@ -2172,6 +2340,18 @@
    "tier": "lab",
    "title": "ChatGPT Ads increases its market presence in 44 countries"
   },
+  "a048b926ba8fbe0a": {
+   "first_seen": "2026-11-23",
+   "impact": 2,
+   "link": "https://www.gov.uk/government/publications/area-send-framework-and-handbook",
+   "posted": false,
+   "published": "2026-11-23",
+   "relevance": 1,
+   "snippet": "This framework and handbook document sets out Ofsted’s inspection principles, guidance and the main judgements that inspectors make when inspecting area SEND.",
+   "source": "Ofsted",
+   "tier": "official",
+   "title": "Guidance: Area SEND: framework and handbook"
+  },
   "a1265cc6c603522f": {
    "first_seen": "2026-11-20",
    "impact": 2,
@@ -2255,6 +2435,18 @@
    "source": "Google DeepMind",
    "tier": "lab",
    "title": "Introducing Gemini 4 Hydrogen"
+  },
+  "aa7016f12f45031f": {
+   "first_seen": "2026-11-23",
+   "impact": 1,
+   "link": "https://www.gov.uk/government/news/education-secretary-champions-uk-education-in-china",
+   "posted": false,
+   "published": "2026-11-23",
+   "relevance": 1,
+   "snippet": "Education Secretary travels to China for first UK-China Education Summit in nine years, helping UK universities, colleges, schools and education businesses open up new opportunities.",
+   "source": "DfE",
+   "tier": "official",
+   "title": "Education Secretary champions UK education in China"
   },
   "ac719b2922ab6e96": {
    "first_seen": "2026-11-19",
@@ -2452,7 +2644,7 @@
    "first_seen": "2026-11-19",
    "impact": 2,
    "link": "https://deepmind.google/blog/introducing-gemini-4-neon/",
-   "posted": false,
+   "posted": true,
    "published": "2026-11-18",
    "relevance": 2,
    "snippet": "",
@@ -2892,6 +3084,18 @@
    "tier": "news",
    "title": "Job pipelines for Black and Latino students ‘dry up’ after attacks on DEI and affirmative action"
   },
+  "d8f8f9b41dbbf6d5": {
+   "first_seen": "2026-11-23",
+   "impact": 1,
+   "link": "https://www.gov.uk/government/publications/regional-contest-co-ordinators-virtual-training-sessions",
+   "posted": false,
+   "published": "2026-11-23",
+   "relevance": 0,
+   "snippet": "Virtual training sessions available to anyone working within an education setting in England, focussing on the implementation of Prevent.",
+   "source": "DfE",
+   "tier": "official",
+   "title": "Guidance: Regional CONTEST co-ordinators: virtual training sessions"
+  },
   "d91b80e1428083df": {
    "first_seen": "2026-11-19",
    "impact": 3,
@@ -3036,6 +3240,18 @@
    "tier": "official",
    "title": "Correspondence: DfE Update 18 November 2026"
   },
+  "de5cd1a6d51dc917": {
+   "first_seen": "2026-11-23",
+   "impact": 1,
+   "link": "https://openai.com/index/perplexity-and-intelligence",
+   "posted": false,
+   "published": "2026-11-22",
+   "relevance": 1,
+   "snippet": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
+   "source": "OpenAI",
+   "tier": "lab",
+   "title": "Perplexity and Intelligence"
+  },
   "e081a06f9a4777a1": {
    "first_seen": "2026-11-19",
    "impact": 2,
@@ -3047,6 +3263,18 @@
    "source": "BBC Education",
    "tier": "news",
    "title": "'Complete system reset' needed to get 440,000 young people into work, says major review"
+  },
+  "e0db226765486c04": {
+   "first_seen": "2026-11-23",
+   "impact": 0,
+   "link": "https://www.gov.uk/government/news/dont-turn-a-blind-eye-kent-communities-urged-to-trust-their-instincts-and-report-waste-criminals",
+   "posted": false,
+   "published": "2026-11-23",
+   "relevance": 0,
+   "snippet": "Communities should report sightings to hotline on 0800 80 70 60, with identities fully anonymous",
+   "source": "GOV.UK (AI in education)",
+   "tier": "official",
+   "title": "\"Don’t turn a blind eye\": Kent communities urged to trust their instincts and report waste criminals"
   },
   "e167551c58bba25c": {
    "first_seen": "2026-11-19",
@@ -3144,6 +3372,18 @@
    "tier": "lab",
    "title": "The Silent Consensus"
   },
+  "e741c2cf851dcd60": {
+   "first_seen": "2026-11-23",
+   "impact": 1,
+   "link": "https://wonkhe.com/blogs/when-ai-shows-up-in-education-it-needs-to-be-in-service-to-human-learning-experiences",
+   "posted": false,
+   "published": "2026-11-23",
+   "relevance": 3,
+   "snippet": "As Wonkhe and Kortext set out to explore what the emerging use-cases for AI are to enhance teaching, learning and student support, Debbie McVitty and Rachel Maxwell interrogate the promise of “personalised” learning",
+   "source": "Wonkhe",
+   "tier": "news",
+   "title": "When AI shows up in education it needs to be in service to human learning experiences"
+  },
   "e7d1321579d0730d": {
    "first_seen": "2026-11-19",
    "impact": 1,
@@ -3155,6 +3395,18 @@
    "source": "EdSurge",
    "tier": "news",
    "title": "AI Has a Place in Education, Just Not in My Classroom"
+  },
+  "e7fab70aadef8708": {
+   "first_seen": "2026-11-23",
+   "impact": 1,
+   "link": "https://www.gov.uk/government/news/sovereign-ai-and-national-security-strategic-investment-fund-backing-british-autonomous-defence-systems-firm",
+   "posted": false,
+   "published": "2026-11-23",
+   "relevance": 0,
+   "snippet": "UK Government’s Sovereign AI Fund and the National Security Strategic Investment Fund (NSSIF) invest in AI defence firm Agon",
+   "source": "GOV.UK (AI in education)",
+   "tier": "official",
+   "title": "Sovereign AI and National Security Strategic Investment Fund backing British autonomous defence systems firm"
   },
   "e845915874ef73d3": {
    "first_seen": "2026-11-19",
@@ -3280,7 +3532,7 @@
    "first_seen": "2026-11-19",
    "impact": 2,
    "link": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
-   "posted": false,
+   "posted": true,
    "published": "2026-11-16",
    "relevance": 2,
    "snippet": "We’re expanding our ChatGPT for Academic Researchers program to offer 200,000 researchers worldwide free access to our frontier models.",
@@ -3420,6 +3672,18 @@
    "tier": "lab",
    "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth"
   },
+  "f9bb137127f6d0d7": {
+   "first_seen": "2026-11-23",
+   "impact": 1,
+   "link": "https://wonkhe.com/blogs/learning-is-something-to-be-savoured-not-optimised",
+   "posted": false,
+   "published": "2026-11-23",
+   "relevance": 2,
+   "snippet": "Higher education is preoccupied with speed and efficiency. Sam Elkington cautions against the loss of experiences of productive struggle",
+   "source": "Wonkhe",
+   "tier": "news",
+   "title": "Learning is something to be savoured, not optimised"
+  },
   "fa67ea41cc9f8c9c": {
    "first_seen": "2026-11-19",
    "impact": 3,
@@ -3542,6 +3806,6 @@
   }
  },
  "last_alert_date": "",
- "last_digest_date": "2026-11-20",
- "last_run_date": "2026-11-22"
+ "last_digest_date": "2026-11-23",
+ "last_run_date": "2026-11-23"
 }
