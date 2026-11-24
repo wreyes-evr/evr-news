@@ -48,6 +48,18 @@
    "tier": "official",
    "title": "Claim an early years teacher recognition payment"
   },
+  "02aafaa1dd230199": {
+   "first_seen": "2026-11-24",
+   "impact": 1,
+   "link": "https://www.gov.uk/government/publications/grant-funding-for-early-career-teacher-entitlement-ecte-year-2-time-off-timetable-and-mentor-support",
+   "posted": false,
+   "published": "2026-11-24",
+   "relevance": 1,
+   "snippet": "Guidance for schools and local authorities on funding to support the early career teacher entitlement (ECTE)",
+   "source": "DfE",
+   "tier": "official",
+   "title": "Guidance: Grant funding for early career teacher entitlement (ECTE) year 2 time off timetable and mentor support"
+  },
   "02e4a20d191af380": {
    "first_seen": "2026-11-19",
    "impact": 1,
@@ -95,6 +107,42 @@
    "source": "OpenAI",
    "tier": "lab",
    "title": "Astra for Law leads in legal intelligence"
+  },
+  "06a542a52cdfd5db": {
+   "first_seen": "2026-11-24",
+   "impact": 1,
+   "link": "https://www.gov.uk/government/statistics/announcements/16-to-18-school-and-college-performance-data-in-england-2025-to-2026-revised",
+   "posted": false,
+   "published": "2026-11-24",
+   "relevance": 1,
+   "snippet": "The attainment of students at the end of their 16 to 18 study in England.",
+   "source": "DfE",
+   "tier": "official",
+   "title": "Accredited official statistics: 16 to 18 school and college performance data in England 2025 to 2026 (revised)"
+  },
+  "07300130fc6f4d13": {
+   "first_seen": "2026-11-24",
+   "impact": 0,
+   "link": "https://www.gov.uk/government/publications/early-years-stronger-practice-hubs",
+   "posted": false,
+   "published": "2026-11-24",
+   "relevance": 1,
+   "snippet": "Information for early years practitioners about stronger practice hubs.",
+   "source": "DfE",
+   "tier": "official",
+   "title": "Transparency data: Early years stronger practice hubs"
+  },
+  "076ef02602686c49": {
+   "first_seen": "2026-11-24",
+   "impact": 1,
+   "link": "https://wonkhe.com/blogs/the-risks-of-letting-ai-mark-assessments-and-give-feedback",
+   "posted": true,
+   "published": "2026-11-24",
+   "relevance": 3,
+   "snippet": "Richard Copeland calls for caution and care in how and when instructors make use of AI tools within assessment grading and feedback",
+   "source": "Wonkhe",
+   "tier": "news",
+   "title": "The risks of letting AI mark assessments and give feedback"
   },
   "082516d30c6806f4": {
    "first_seen": "2026-11-19",
@@ -203,6 +251,18 @@
    "source": "EdSurge",
    "tier": "news",
    "title": "If Representation Matters, Then Authenticity Does Too"
+  },
+  "0d73a48f11844cf3": {
+   "first_seen": "2026-11-24",
+   "impact": 0,
+   "link": "https://www.bbc.co.uk/news/articles/cme3d9dk5wqxo?at_medium=RSS&at_campaign=rss",
+   "posted": false,
+   "published": "2026-11-24",
+   "relevance": 0,
+   "snippet": "The electrical system at a County Armagh school is undergoing an upgrade and a temporary generator has been causing issues.",
+   "source": "BBC Education",
+   "tier": "news",
+   "title": "Frustration after generator failure forces school to close again"
   },
   "0ee92d00ba8ab01c": {
    "first_seen": "2026-11-19",
@@ -384,6 +444,18 @@
    "tier": "official",
    "title": "Official Statistics: Further education workforce in England"
   },
+  "1d0c151fefed0dea": {
+   "first_seen": "2026-11-24",
+   "impact": 0,
+   "link": "https://openai.com/index/introducing-shirudo",
+   "posted": false,
+   "published": "2026-11-23",
+   "relevance": 0,
+   "snippet": "OpenAI and Cisco introduce Shirudo, an open-source runtime for Linux. It helps teams protect running systems while they roll out patches.",
+   "source": "OpenAI",
+   "tier": "lab",
+   "title": "OpenAI and Cisco introduce Shirudo"
+  },
   "1ff74ee2cb106637": {
    "first_seen": "2026-11-19",
    "impact": 0,
@@ -395,6 +467,18 @@
    "source": "OpenAI",
    "tier": "lab",
    "title": "Cogent and OpenAI build cyber defense factories for enterprises"
+  },
+  "2122535da27e50df": {
+   "first_seen": "2026-11-24",
+   "impact": 1,
+   "link": "https://www.gov.uk/government/statistics/announcements/secondary-school-performance-data-in-england-2027",
+   "posted": false,
+   "published": "2026-11-24",
+   "relevance": 1,
+   "snippet": "The achievements of pupils at key stage 4, at school level, local authority area and in England.",
+   "source": "DfE",
+   "tier": "official",
+   "title": "Accredited official statistics: Secondary school performance data in England: 2027"
   },
   "229669d7480af47a": {
    "first_seen": "2026-11-19",
@@ -792,6 +876,18 @@
    "tier": "official",
    "title": "Guidance: Children in need census 2027 to 2028: specification"
   },
+  "35c24972e81b1453": {
+   "first_seen": "2026-11-24",
+   "impact": 2,
+   "link": "https://www.gov.uk/government/publications/post-16-pathways-implementation-plan",
+   "posted": false,
+   "published": "2026-11-24",
+   "relevance": 2,
+   "snippet": "Sets out how we will deliver reforms to the technical and vocational qualifications available to young people from age 16.",
+   "source": "DfE",
+   "tier": "official",
+   "title": "Guidance: Post-16 pathways: implementation plan"
+  },
   "36be858849feb34e": {
    "first_seen": "2026-11-20",
    "impact": 2,
@@ -864,6 +960,18 @@
    "tier": "official",
    "title": "Further education and skills inspections and outcomes: management information from September 2026 to August 2027"
   },
+  "3c589e600ea11a1b": {
+   "first_seen": "2026-11-24",
+   "impact": 1,
+   "link": "https://www.gov.uk/government/publications/digital-inclusion-innovation-fund-evaluation-report",
+   "posted": false,
+   "published": "2026-11-24",
+   "relevance": 1,
+   "snippet": "An evaluation report of the Digital Inclusion Innovation Fund assessing the process, impact and value for money.",
+   "source": "DSIT",
+   "tier": "official",
+   "title": "Policy paper: Digital Inclusion Innovation Fund: evaluation report"
+  },
   "3db917831ef7b0aa": {
    "first_seen": "2026-11-19",
    "impact": 0,
@@ -875,6 +983,18 @@
    "source": "GOV.UK (AI in education)",
    "tier": "official",
    "title": "Australia-United Kingdom Joint Communiqué on the 2nd Strategic Innovation Dialogue"
+  },
+  "3e1cfc9638f77ee6": {
+   "first_seen": "2026-11-24",
+   "impact": 1,
+   "link": "https://www.gov.uk/government/statistics/announcements/primary-school-performance-data-in-england-2026",
+   "posted": false,
+   "published": "2026-11-24",
+   "relevance": 1,
+   "snippet": "Information on the achievements of pupils in each state-funded primary school in England.",
+   "source": "DfE",
+   "tier": "official",
+   "title": "Accredited official statistics: Primary school performance data in England: 2026"
   },
   "3e93b598bd8a0cb4": {
    "first_seen": "2026-11-19",
@@ -923,6 +1043,18 @@
    "source": "Hechinger Report",
    "tier": "news",
    "title": "Sold a story: Get ready!"
+  },
+  "40a6cfbdefa2ff04": {
+   "first_seen": "2026-11-24",
+   "impact": 0,
+   "link": "https://www.gov.uk/government/news/uk-steps-up-response-to-renewed-houthi-aggression",
+   "posted": false,
+   "published": "2026-11-24",
+   "relevance": 0,
+   "snippet": "The UK government has announced sanctions against the Houthis and their top officials, following renewed aggression inside Yemen and against Saudi Arabia.",
+   "source": "GOV.UK (AI in education)",
+   "tier": "official",
+   "title": "UK steps up response to renewed Houthi aggression"
   },
   "40e40961a2772fc6": {
    "first_seen": "2026-11-19",
@@ -996,6 +1128,18 @@
    "tier": "official",
    "title": "Guidance: Area SEND inspections: information about ongoing inspections"
   },
+  "44aa71e3f3d2ff30": {
+   "first_seen": "2026-11-24",
+   "impact": 1,
+   "link": "https://wonkhe.com/blogs/universities-are-still-making-co-production-harder-than-it-needs-to-be",
+   "posted": false,
+   "published": "2026-11-24",
+   "relevance": 1,
+   "snippet": "Siân Whyte argues that if universities want participatory research to thrive, they must stop being the barriers to its success, and reform the systems that shape it",
+   "source": "Wonkhe",
+   "tier": "news",
+   "title": "Universities are still making co-production harder than it needs to be"
+  },
   "458d2f4405630092": {
    "first_seen": "2026-11-19",
    "impact": 2,
@@ -1043,6 +1187,18 @@
    "source": "Wonkhe",
    "tier": "news",
    "title": "In the final REF guidance, the devil is not in the detail"
+  },
+  "4a429978bb2c6f8d": {
+   "first_seen": "2026-11-24",
+   "impact": 1,
+   "link": "https://www.gov.uk/government/statistics/announcements/pupil-attendance-in-schools--100",
+   "posted": false,
+   "published": "2026-11-24",
+   "relevance": 1,
+   "snippet": "Data on the levels of attendance and overall, authorised and unauthorised absence in state-funded primary, secondary and special schools.",
+   "source": "DfE",
+   "tier": "official",
+   "title": "Official Statistics: Pupil attendance in schools"
   },
   "4b08ec50268e04a4": {
    "first_seen": "2026-11-20",
@@ -1452,6 +1608,18 @@
    "tier": "lab",
    "title": "Finding faster quantum algorithms with agents and formal verification"
   },
+  "6205435af8f477a8": {
+   "first_seen": "2026-11-24",
+   "impact": 1,
+   "link": "https://www.gov.uk/government/consultations/post-16-level-2-and-3-qualifications-2028-construction",
+   "posted": false,
+   "published": "2026-11-24",
+   "relevance": 1,
+   "snippet": "Give your views on proposed content for new construction V Levels, Foundation Certificates and Occupational Certificates for teaching from September 2028.",
+   "source": "DfE",
+   "tier": "official",
+   "title": "Post-16 level 2 and 3 qualifications 2028: construction"
+  },
   "655447d9d7392723": {
    "first_seen": "2026-11-20",
    "impact": 1,
@@ -1476,6 +1644,18 @@
    "tier": "lab",
    "title": "How OpenAI’s Performance Factory keeps ChatGPT fast"
   },
+  "66a670e312350d07": {
+   "first_seen": "2026-11-24",
+   "impact": 1,
+   "link": "https://www.gov.uk/government/statistics/non-association-independent-schools-inspections-and-outcomes-in-england-august-2026",
+   "posted": false,
+   "published": "2026-11-24",
+   "relevance": 1,
+   "snippet": "Provisional data for the period 1 September 2025 to 31 August 2026.",
+   "source": "Ofsted",
+   "tier": "official",
+   "title": "Official Statistics: Non-association independent schools inspections and outcomes in England: August 2026"
+  },
   "66ed14c6418f09b7": {
    "first_seen": "2026-11-19",
    "impact": 1,
@@ -1499,6 +1679,18 @@
    "source": "Hechinger Report",
    "tier": "news",
    "title": "With free-tuition promises, some colleges try to untangle confusion over what they cost"
+  },
+  "680b35173b971311": {
+   "first_seen": "2026-11-24",
+   "impact": 1,
+   "link": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
+   "posted": false,
+   "published": "2026-11-23",
+   "relevance": 1,
+   "snippet": "Richpanel uses GPT-6 Astra and GPT-6.1 Sol to equip its AI support agents with tools and procedures, and GPT-6 Luna for their conversations.",
+   "source": "OpenAI",
+   "tier": "lab",
+   "title": "Richpanel helps companies automate 50% of support in 30 days"
   },
   "68f878ef7b7bf73c": {
    "first_seen": "2026-11-20",
@@ -1547,6 +1739,30 @@
    "source": "Hechinger Report",
    "tier": "news",
    "title": "Three studies in a row show teeny-tiny or zero academic gains from school cellphone bans"
+  },
+  "70759b943be9c4f0": {
+   "first_seen": "2026-11-24",
+   "impact": 1,
+   "link": "https://www.gov.uk/government/consultations/post-16-level-2-and-3-qualifications-2028-sport-and-leisure",
+   "posted": false,
+   "published": "2026-11-24",
+   "relevance": 1,
+   "snippet": "Give your views on proposed content for new sport and leisure V Levels, Foundation Certificates and Occupational Certificates for teaching from September 2028.",
+   "source": "DfE",
+   "tier": "official",
+   "title": "Post-16 level 2 and 3 qualifications 2028: sport and leisure"
+  },
+  "71996d97862bb6c2": {
+   "first_seen": "2026-11-24",
+   "impact": 0,
+   "link": "https://openai.com/index/ifood",
+   "posted": false,
+   "published": "2026-11-24",
+   "relevance": 0,
+   "snippet": "",
+   "source": "OpenAI",
+   "tier": "lab",
+   "title": "How iFood scales coding agents across 15,000 repositories"
   },
   "738a50bc03162734": {
    "first_seen": "2026-11-19",
@@ -1608,6 +1824,18 @@
    "tier": "official",
    "title": "'Costs cut': Prime Minister secures deal with EU to cut costs, keep prices down and create opportunities for young people worth up to £17 billion per year"
   },
+  "79acc8e7362c0caa": {
+   "first_seen": "2026-11-24",
+   "impact": 2,
+   "link": "https://www.hepi.ac.uk/2026/11/24/tef-with-teeth-why-the-ofss-quality-proposals-need-a-start-again-box/",
+   "posted": false,
+   "published": "2026-11-24",
+   "relevance": 1,
+   "snippet": "This blog was kindly authored by Professor Sir Peter Scott, Emeritus Professor of Higher Education Studies at UCL, former Vice-Chancellor of Kingston University between 1998 and 2010 and the first Commissioner for Fair Access in Scotland. The one box that never appears in consultations, despite often being the most important, is the one that says […] The post TEF with teeth? Why the OfS’s quality proposals need a ‘start again’ box appeared first on HEPI .",
+   "source": "HEPI",
+   "tier": "news",
+   "title": "TEF with teeth? Why the OfS’s quality proposals need a ‘start again’ box"
+  },
   "7a72273023db575a": {
    "first_seen": "2026-11-19",
    "impact": 0,
@@ -1619,6 +1847,18 @@
    "source": "GOV.UK (AI in education)",
    "tier": "official",
    "title": "Home Secretary's speech to NPCC/APCC Summit 2026"
+  },
+  "7b9399f73752b59b": {
+   "first_seen": "2026-11-24",
+   "impact": 0,
+   "link": "https://www.gov.uk/government/speeches/statement-to-the-31st-session-of-the-conference-of-the-states-parties-of-the-opcw",
+   "posted": false,
+   "published": "2026-11-24",
+   "relevance": 0,
+   "snippet": "Statement by United Kingdom of Great Britain and Northern Ireland at the 31st Conference of the States Parties of the OPCW",
+   "source": "GOV.UK (AI in education)",
+   "tier": "official",
+   "title": "Statement to the 31st Session of the Conference of the States Parties of the OPCW"
   },
   "7bf003581bbca721": {
    "first_seen": "2026-11-19",
@@ -1655,6 +1895,18 @@
    "source": "Google DeepMind",
    "tier": "lab",
    "title": "Gemini Robotics 2.5 accelerates real-world general dexterity"
+  },
+  "7e1ec113d2f99eec": {
+   "first_seen": "2026-11-24",
+   "impact": 1,
+   "link": "https://www.gov.uk/government/statistics/announcements/16-to-18-schools-and-college-performance-data-in-england-2025-to-2026-revised-retention-data-update",
+   "posted": false,
+   "published": "2026-11-24",
+   "relevance": 1,
+   "snippet": "The attainment of 16 to 18 year old students at the end of 16-18 study in England, updated to include retention statistics.",
+   "source": "DfE",
+   "tier": "official",
+   "title": "Accredited official statistics: 16 to 18 schools and college performance data in England: 2025 to 2026 (revised, retention data update)"
   },
   "7ed9e371ebd61f7f": {
    "first_seen": "2026-11-22",
@@ -1823,6 +2075,18 @@
    "source": "EC Digital Strategy",
    "tier": "official",
    "title": "European Digital Infrastructure Consortium launches today to strengthen digital sovereignty in education"
+  },
+  "890a00386aa2cd17": {
+   "first_seen": "2026-11-24",
+   "impact": 1,
+   "link": "https://www.gov.uk/government/statistics/announcements/secondary-school-performance-data-in-england-2025-to-2026-revised",
+   "posted": false,
+   "published": "2026-11-24",
+   "relevance": 1,
+   "snippet": "The achievements of pupils at key stage 4 in England at school level, multi-academy trust level and local authority area.",
+   "source": "DfE",
+   "tier": "official",
+   "title": "Accredited official statistics: Secondary school performance data in England: 2025 to 2026 (revised)"
   },
   "893331b061f3c395": {
    "first_seen": "2026-11-19",
@@ -2112,6 +2376,18 @@
    "tier": "official",
    "title": "AI and coursework: how we can tackle this together"
   },
+  "9439869d71e10773": {
+   "first_seen": "2026-11-24",
+   "impact": 1,
+   "link": "https://www.gov.uk/government/publications/grant-funding-for-early-career-training-programme-for-mentors-ectpm",
+   "posted": false,
+   "published": "2026-11-24",
+   "relevance": 1,
+   "snippet": "Guidance for schools and local authorities on funding for schools using one of the DfE funded training providers to deliver early career teacher entitlement (ECTE) from 1 September 2025.",
+   "source": "DfE",
+   "tier": "official",
+   "title": "Guidance: Grant funding for early career training programme for mentors (ECTPM)"
+  },
   "9591107c9ba80fb1": {
    "first_seen": "2026-11-23",
    "impact": 1,
@@ -2160,6 +2436,18 @@
    "tier": "official",
    "title": "Government’s top AI engineers to help Liverpool’s young people into work"
   },
+  "99c7fb4afe5ef8c4": {
+   "first_seen": "2026-11-24",
+   "impact": 1,
+   "link": "https://www.gov.uk/government/consultations/post-16-level-2-and-3-qualifications-2028-engineering-and-manufacturing",
+   "posted": false,
+   "published": "2026-11-24",
+   "relevance": 1,
+   "snippet": "Give your views on proposed new content for engineering and manufacturing V Levels, Foundation and Occupational Certificates for teaching from September 2028.",
+   "source": "DfE",
+   "tier": "official",
+   "title": "Post-16 level 2 and 3 qualifications 2028: engineering and manufacturing"
+  },
   "9a377e5aede08f53": {
    "first_seen": "2026-11-20",
    "impact": 1,
@@ -2176,7 +2464,7 @@
    "first_seen": "2026-11-20",
    "impact": 2,
    "link": "https://www.anthropic.com/news/ipo-close",
-   "posted": false,
+   "posted": true,
    "published": "2026-11-20",
    "relevance": 2,
    "snippet": "Today Anthropic, PBC announced the closing of its initial public offering of an aggregate of 1,127,000,000 shares of its Class A common stock at a public offering price of $83.00 per share, including the full exercise by the underwriters of their option to purchase an additional 147,000,000 shares of Class A common stock from Anthropic at the initial public offering price.",
@@ -2291,6 +2579,18 @@
    "source": "EC Digital Strategy",
    "tier": "official",
    "title": "Commission hosts Apply AI Summit to boost Europe’s AI innovation and uptake"
+  },
+  "9fa4077133501c0b": {
+   "first_seen": "2026-11-24",
+   "impact": 0,
+   "link": "https://www.gov.uk/government/news/landmark-study-into-uk-government-policy-during-the-troubles-launched-as-thousands-more-archival-records-made-available-online",
+   "posted": false,
+   "published": "2026-11-24",
+   "relevance": 0,
+   "snippet": "The UK Government has today delivered a major transparency milestone, announcing the formal appointment of five independent Official Historians to lead a landmark study into UK Government policy during the Troubles",
+   "source": "GOV.UK (AI in education)",
+   "tier": "official",
+   "title": "Landmark Study into UK Government policy during the Troubles launched as Thousands More Archival Records Made Available Online"
   },
   "9fa731b0ef6c1da9": {
    "first_seen": "2026-11-19",
@@ -2496,6 +2796,18 @@
    "tier": "news",
    "title": "Power Up Learning with an Official Pokémon Club"
   },
+  "af59f07234aeee6d": {
+   "first_seen": "2026-11-24",
+   "impact": 1,
+   "link": "https://www.gov.uk/government/statistics/announcements/access-arrangements-for-gcse-as-and-a-level-2025-to-2026-academic-year",
+   "posted": false,
+   "published": "2026-11-23",
+   "relevance": 1,
+   "snippet": "Numbers of approved access arrangements for GCSE, AS and A level in England which were valid for use during the 2025 to 2026 academic year, and the number of requests granted for modified papers for the 2026 summer GCSE, AS and A level series.",
+   "source": "Ofqual",
+   "tier": "official",
+   "title": "Official Statistics: Access arrangements for GCSE, AS and A level: 2025 to 2026 academic year"
+  },
   "afb42413b9778447": {
    "first_seen": "2026-11-19",
    "impact": 1,
@@ -2579,6 +2891,18 @@
    "source": "OpenAI",
    "tier": "lab",
    "title": "Strengthening the fight against online child sexual abuse with new tools and support"
+  },
+  "b208fd48fa630f31": {
+   "first_seen": "2026-11-24",
+   "impact": 0,
+   "link": "https://www.gov.uk/government/news/timms-review-recommends-overhaul-of-disability-benefits-system",
+   "posted": false,
+   "published": "2026-11-24",
+   "relevance": 0,
+   "snippet": "An overhaul of Personal Independence Payment (PIP) is needed to respond more closely to disabled people's additional costs and recognise the barriers they face according to the Timms Review's final report published t…",
+   "source": "GOV.UK (AI in education)",
+   "tier": "official",
+   "title": "Timms Review recommends overhaul of disability benefits system"
   },
   "b2f576f35185d2f8": {
    "first_seen": "2026-11-20",
@@ -2736,6 +3060,18 @@
    "tier": "official",
    "title": "Parent, pupil and learner voice: omnibus surveys for 2025 to 2026"
   },
+  "befcbe7815992128": {
+   "first_seen": "2026-11-24",
+   "impact": 0,
+   "link": "https://hechingerreport.org/these-maps-show-how-expensive-state-schools-can-be-for-low-income-students/",
+   "posted": false,
+   "published": "2026-11-24",
+   "relevance": 0,
+   "snippet": "To avoid spending their young adult lives in debt, students have long been counseled to stay in-state for college. After all, it’s the mission of public universities, funded by tax dollars, to provide an affordable, high-quality education to state residents. Yet, in 34 states, it costs students from low-income families at least a third of […] The post These maps show how expensive state schools can be for low-income students appeared first on The Hechinger Report .",
+   "source": "Hechinger Report",
+   "tier": "news",
+   "title": "These maps show how expensive state schools can be for low-income students"
+  },
   "bf934d29a1600520": {
    "first_seen": "2026-11-19",
    "impact": 1,
@@ -2747,6 +3083,18 @@
    "source": "DSIT",
    "tier": "official",
    "title": "Research: UK software market analysis"
+  },
+  "c014c0f63f9a3a79": {
+   "first_seen": "2026-11-24",
+   "impact": 0,
+   "link": "https://www.gov.uk/government/publications/the-timms-review-co-chair-update-november-2026",
+   "posted": false,
+   "published": "2026-11-24",
+   "relevance": 0,
+   "snippet": "This document sets out an update on the progress of the Timms Review of Personal Independence Payment (PIP), from the Timms Review's co-chairs.",
+   "source": "GOV.UK (AI in education)",
+   "tier": "official",
+   "title": "The Timms Review: co-chair update, November 2026"
   },
   "c0fa2534a88f56f1": {
    "first_seen": "2026-11-19",
@@ -2855,6 +3203,18 @@
    "source": "EdSurge",
    "tier": "news",
    "title": "How Can Early-Career Teachers Engage Students? Try Improv."
+  },
+  "ca6b183b0e26366a": {
+   "first_seen": "2026-11-24",
+   "impact": 1,
+   "link": "https://www.gov.uk/government/statistics/announcements/primary-school-performance-data-in-england-2027",
+   "posted": false,
+   "published": "2026-11-24",
+   "relevance": 1,
+   "snippet": "Information on the achievements of pupils in each state-funded primary school in England.",
+   "source": "DfE",
+   "tier": "official",
+   "title": "Accredited official statistics: Primary school performance data in England: 2027"
   },
   "cb1d8f8bc84f7e6a": {
    "first_seen": "2026-11-19",
@@ -3072,6 +3432,18 @@
    "tier": "official",
    "title": "Legislative proposals to address broadband rollout in leasehold flats"
   },
+  "d7bb3d088bb9e9c2": {
+   "first_seen": "2026-11-24",
+   "impact": 1,
+   "link": "https://www.bbc.co.uk/news/articles/crgj38nlj45wo?at_medium=RSS&at_campaign=rss",
+   "posted": false,
+   "published": "2026-11-24",
+   "relevance": 1,
+   "snippet": "The bill would have required the Department of Education to prepare a workforce plan for schools where all subjects are taught in Irish.",
+   "source": "BBC Education",
+   "tier": "news",
+   "title": "DUP accused of 'anti-Irish bigotry' as education bill blocked"
+  },
   "d807d7ce002bd518": {
    "first_seen": "2026-11-19",
    "impact": 0,
@@ -3264,6 +3636,18 @@
    "tier": "news",
    "title": "'Complete system reset' needed to get 440,000 young people into work, says major review"
   },
+  "e0a71b6a1b5c91a5": {
+   "first_seen": "2026-11-24",
+   "impact": 0,
+   "link": "https://www.gov.uk/government/publications/improvement-notice-issued-to-london-borough-of-bexley-may-2024",
+   "posted": false,
+   "published": "2026-11-24",
+   "relevance": 0,
+   "snippet": "An improvement notice issued to the London Borough of Bexley following an Ofsted and CQC inspection in February 2024.",
+   "source": "DfE",
+   "tier": "official",
+   "title": "Correspondence: Improvement notice issued to London Borough of Bexley: May 2024"
+  },
   "e0db226765486c04": {
    "first_seen": "2026-11-23",
    "impact": 0,
@@ -3275,6 +3659,18 @@
    "source": "GOV.UK (AI in education)",
    "tier": "official",
    "title": "\"Don’t turn a blind eye\": Kent communities urged to trust their instincts and report waste criminals"
+  },
+  "e15e3afab496308e": {
+   "first_seen": "2026-11-24",
+   "impact": 1,
+   "link": "https://www.edsurge.com/news/how-one-teacher-prep-program-made-its-technology-use-visible",
+   "posted": false,
+   "published": "2026-11-24",
+   "relevance": 2,
+   "snippet": "A faculty survey turned into a program-wide conversation — and a plan to align with the ISTE Standards.",
+   "source": "EdSurge",
+   "tier": "news",
+   "title": "How One Teacher Prep Program Made Its Technology Use Visible"
   },
   "e167551c58bba25c": {
    "first_seen": "2026-11-19",
@@ -3288,6 +3684,18 @@
    "tier": "official",
    "title": "Transparency data: How the eligibility criteria were developed for the early years teacher recognition payment"
   },
+  "e2544bc1aeb2953e": {
+   "first_seen": "2026-11-24",
+   "impact": 0,
+   "link": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state/",
+   "posted": false,
+   "published": "2026-11-24",
+   "relevance": 0,
+   "snippet": "Google Gemini partners with Golden State to power fan experiences and business operations for the Warriors, Valkyries, and Chase Center. See the news.",
+   "source": "Google AI",
+   "tier": "lab",
+   "title": "How Gemini is changing the game for Golden State's organization and fans."
+  },
   "e29ac258c013c12c": {
    "first_seen": "2026-11-20",
    "impact": 0,
@@ -3299,6 +3707,18 @@
    "source": "OpenAI",
    "tier": "lab",
    "title": "Explore the Codex Security Plugin"
+  },
+  "e336e7190cef4366": {
+   "first_seen": "2026-11-24",
+   "impact": 0,
+   "link": "https://www.bbc.co.uk/news/articles/cxvg2pr9lpl9o?at_medium=RSS&at_campaign=rss",
+   "posted": false,
+   "published": "2026-11-23",
+   "relevance": 0,
+   "snippet": "A councillor claims \"no proper planning and consideration\" is made to keep pupils in Powys.",
+   "source": "BBC Education",
+   "tier": "news",
+   "title": "Parents in Wales 'paying £1,000 for transport to school in England'"
   },
   "e38603671827ed13": {
    "first_seen": "2026-11-19",
@@ -3376,7 +3796,7 @@
    "first_seen": "2026-11-23",
    "impact": 1,
    "link": "https://wonkhe.com/blogs/when-ai-shows-up-in-education-it-needs-to-be-in-service-to-human-learning-experiences",
-   "posted": false,
+   "posted": true,
    "published": "2026-11-23",
    "relevance": 3,
    "snippet": "As Wonkhe and Kortext set out to explore what the emerging use-cases for AI are to enhance teaching, learning and student support, Debbie McVitty and Rachel Maxwell interrogate the promise of “personalised” learning",
@@ -3479,6 +3899,18 @@
    "source": "Ofsted",
    "tier": "official",
    "title": "IDSR: news and updates"
+  },
+  "ea857340bf9bd69e": {
+   "first_seen": "2026-11-24",
+   "impact": 0,
+   "link": "https://www.gov.uk/government/publications/16-to-19-bursary-fund-provider-guide",
+   "posted": false,
+   "published": "2026-11-24",
+   "relevance": 1,
+   "snippet": "Guidance for institutions that administer the 16 to 19 Bursary Fund, which provides financial support to help eligible students participate in education.",
+   "source": "DfE",
+   "tier": "official",
+   "title": "Guidance: 16 to 19 Bursary Fund: provider guide"
   },
   "eb214851f5ad8b7d": {
    "first_seen": "2026-11-19",
@@ -3660,6 +4092,18 @@
    "tier": "lab",
    "title": "Science at the Frontier: How scientists use ChatGPT"
   },
+  "f8a4e02f42124693": {
+   "first_seen": "2026-11-24",
+   "impact": 0,
+   "link": "https://openai.com/business/learn/connected-intelligence-for-in-house-legal",
+   "posted": false,
+   "published": "2026-11-23",
+   "relevance": 0,
+   "snippet": "Watch OpenAI’s Stacey Wang and Craig Bruney, Mary O’Carroll of LECG, and Cooley’s Richard Segal explore how AI can help in-house legal teams connect business context, build reusable workflows and get more from outside counsel.",
+   "source": "OpenAI",
+   "tier": "lab",
+   "title": "Connected intelligence for in-house legal"
+  },
   "f8c1a7370c130fe5": {
    "first_seen": "2026-11-19",
    "impact": 1,
@@ -3744,6 +4188,18 @@
    "tier": "lab",
    "title": "Gemini 4 Carbon is now available"
   },
+  "fca1fe672f6846e0": {
+   "first_seen": "2026-11-24",
+   "impact": 0,
+   "link": "https://www.gov.uk/government/news/ceos-from-sensitive-sectors-receive-briefings-on-russia-threats",
+   "posted": false,
+   "published": "2026-11-24",
+   "relevance": 0,
+   "snippet": "Closed-door security briefings by Ministers and UK Intelligence representatives given to critical national infrastructure (CNI) and defence sector CEOs",
+   "source": "GOV.UK (AI in education)",
+   "tier": "official",
+   "title": "CEOs from sensitive sectors receive briefings on Russia threats"
+  },
   "fee66cab79f5ce88": {
    "first_seen": "2026-11-19",
    "impact": 1,
@@ -3806,6 +4262,6 @@
   }
  },
  "last_alert_date": "",
- "last_digest_date": "2026-11-23",
- "last_run_date": "2026-11-23"
+ "last_digest_date": "2026-11-24",
+ "last_run_date": "2026-11-24"
 }
