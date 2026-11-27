@@ -420,6 +420,18 @@
    "tier": "official",
    "title": "Guidance: Ofqual complaints procedure guidance"
   },
+  "17325a5d0814a2ef": {
+   "first_seen": "2026-11-27",
+   "impact": 1,
+   "link": "https://wonkhe.com/blogs/uk-growth-demands-alignment-with-higher-education",
+   "posted": false,
+   "published": "2026-11-27",
+   "relevance": 1,
+   "snippet": "Joan Concannon argues that devolution alone is not enough to grow the economy",
+   "source": "Wonkhe",
+   "tier": "news",
+   "title": "UK growth demands alignment with higher education"
+  },
   "175f51401eeef70b": {
    "first_seen": "2026-11-25",
    "impact": 1,
@@ -1104,6 +1116,18 @@
    "tier": "official",
    "title": "Guidance: Post-16 pathways: implementation plan"
   },
+  "36a20150712c1008": {
+   "first_seen": "2026-11-27",
+   "impact": 0,
+   "link": "https://www.bbc.co.uk/news/articles/cw8dv11dp2yeo?at_medium=RSS&at_campaign=rss",
+   "posted": false,
+   "published": "2026-11-27",
+   "relevance": 0,
+   "snippet": "Solo-dining is being embraced as a self-care trend and it's reshaping the restaurant industry.",
+   "source": "BBC Education",
+   "tier": "news",
+   "title": "My self-care ritual is a meal at a fancy restaurant - on my own"
+  },
   "36be858849feb34e": {
    "first_seen": "2026-11-20",
    "impact": 2,
@@ -1139,6 +1163,18 @@
    "source": "OpenAI",
    "tier": "lab",
    "title": "At Holiday Extras, dots get to work before anyone asks"
+  },
+  "396ef9a452a944d1": {
+   "first_seen": "2026-11-27",
+   "impact": 0,
+   "link": "https://www.gov.uk/guidance/national-school-breakfast-club-programme",
+   "posted": false,
+   "published": "2026-11-27",
+   "relevance": 0,
+   "snippet": "Continued support for participating schools post-programme closure.",
+   "source": "DfE",
+   "tier": "official",
+   "title": "National school breakfast club programme"
   },
   "39c2da17cef629dc": {
    "first_seen": "2026-11-23",
@@ -1199,6 +1235,18 @@
    "source": "OpenAI",
    "tier": "lab",
    "title": "GPT-6 models demonstrate intrinsic protein-design capabilities"
+  },
+  "3cd087a8b5f24fcc": {
+   "first_seen": "2026-11-27",
+   "impact": 1,
+   "link": "https://www.hepi.ac.uk/2026/11/27/creative-higher-education-is-part-of-our-national-infrastructure-but-without-a-plan-it-is-being-set-adrift/",
+   "posted": false,
+   "published": "2026-11-27",
+   "relevance": 1,
+   "snippet": "This blog was kindly authored by Professor Roni Brown, Chair of the Creative HE Strategy Project and Professor Paul Fieldsend-Danks, Chair of GuildHE Creative. This country has a world-leading creative industries sector. It also has world-leading creative higher education institutions, and the first is inextricably linked to the second. The creative industries contributed £145.8bn in […] The post Creative higher education is part of our national infrastructure, but without a plan, it is being set adrift appeared first on HEPI .",
+   "source": "HEPI",
+   "tier": "news",
+   "title": "Creative higher education is part of our national infrastructure, but without a plan, it is being set adrift"
   },
   "3db917831ef7b0aa": {
    "first_seen": "2026-11-19",
@@ -2748,6 +2796,18 @@
    "tier": "official",
    "title": "The UK and Samoa celebrate His Majesty The King’s Birthday"
   },
+  "8b1406cbe88f5591": {
+   "first_seen": "2026-11-27",
+   "impact": 0,
+   "link": "https://www.gov.uk/government/speeches/partnership-with-europe-not-separation-the-answer-for-britain",
+   "posted": false,
+   "published": "2026-11-27",
+   "relevance": 0,
+   "snippet": "Scottish Secretary Douglas Alexander’s speech at the Pontignano Conference, Rome, 27 November 2026.",
+   "source": "GOV.UK (AI in education)",
+   "tier": "official",
+   "title": "PARTNERSHIP WITH EUROPE, NOT SEPARATION, THE ANSWER FOR BRITAIN"
+  },
   "8b6ac2940fdc0d0e": {
    "first_seen": "2026-11-19",
    "impact": 1,
@@ -2999,6 +3059,18 @@
    "source": "Ofqual blog",
    "tier": "official",
    "title": "AI and coursework: how we can tackle this together"
+  },
+  "94388494ca6a36c1": {
+   "first_seen": "2026-11-27",
+   "impact": 1,
+   "link": "https://www.gov.uk/government/news/uk-education-support-in-syria-reaches-one-million-children",
+   "posted": false,
+   "published": "2026-11-27",
+   "relevance": 0,
+   "snippet": "The Syria Education Programme (SEP) has supported the education of one million children across northwest Syria since 2018. Following the success of the project, the UK government is also announcing funding for third iteration of programme.",
+   "source": "GOV.UK (AI in education)",
+   "tier": "official",
+   "title": "UK education support in Syria reaches one million children"
   },
   "9439869d71e10773": {
    "first_seen": "2026-11-24",
@@ -4080,6 +4152,18 @@
    "tier": "official",
    "title": "UK and Pakistan strengthen defence co-operation during Army Chief visit"
   },
+  "c5f4aefff848188c": {
+   "first_seen": "2026-11-27",
+   "impact": 2,
+   "link": "https://www.bbc.co.uk/news/articles/cmdx1y2d4yqno?at_medium=RSS&at_campaign=rss",
+   "posted": false,
+   "published": "2026-11-26",
+   "relevance": 1,
+   "snippet": "Cyber attacks and building collapses are among the risks schools in England are being urged to prepare for.",
+   "source": "BBC Education",
+   "tier": "news",
+   "title": "Schools given emergency action plans for power outages and extreme weather"
+  },
   "c6c361c53bc4ce2d": {
    "first_seen": "2026-11-19",
    "impact": 1,
@@ -4236,6 +4320,18 @@
    "tier": "lab",
    "title": "Gemini Decisions API: Fast, calibrated multimodal decisions"
   },
+  "cd701ab90d242fec": {
+   "first_seen": "2026-11-27",
+   "impact": 0,
+   "link": "https://wonkhe.com/blogs/higher-education-postcard-university-of-wroclaw",
+   "posted": false,
+   "published": "2026-11-27",
+   "relevance": 0,
+   "snippet": "This week’s card from Hugh Jones’ postbag takes us to a university which took transnational education literally",
+   "source": "Wonkhe",
+   "tier": "news",
+   "title": "Higher education postcard: University of Wrocław"
+  },
   "cd88f6cf71e07eac": {
    "first_seen": "2026-11-19",
    "impact": 1,
@@ -4367,6 +4463,30 @@
    "source": "Hechinger Report",
    "tier": "news",
    "title": "Sold a story: It’s up to us"
+  },
+  "d349b7e9928edfe3": {
+   "first_seen": "2026-11-27",
+   "impact": 0,
+   "link": "https://www.gov.uk/government/publications/national-careers-service-course-directory",
+   "posted": false,
+   "published": "2026-11-27",
+   "relevance": 0,
+   "snippet": "The course directory contains information on courses offered by learning providers who are publicly funded to deliver courses in England.",
+   "source": "DfE",
+   "tier": "official",
+   "title": "Transparency data: National Careers Service: course directory"
+  },
+  "d6a4d01832d18299": {
+   "first_seen": "2026-11-27",
+   "impact": 1,
+   "link": "https://wonkhe.com/blogs/is-it-time-to-stop-romanticising-reflective-practice",
+   "posted": false,
+   "published": "2026-11-27",
+   "relevance": 1,
+   "snippet": "Saneeya Qureshi and Claire Stocks ask whether reflective practice is fit for purpose in higher education",
+   "source": "Wonkhe",
+   "tier": "news",
+   "title": "Is it time to stop romanticising reflective practice?"
   },
   "d6fe0cff82a91bb2": {
    "first_seen": "2026-11-19",
@@ -4560,6 +4680,18 @@
    "tier": "news",
    "title": "Franchised HE is getting bigger, owners are getting richer, and more students are dropping out"
   },
+  "dc46d1818e536e1d": {
+   "first_seen": "2026-11-27",
+   "impact": 0,
+   "link": "https://education.ec.europa.eu/study-in-europe/programmes-and-fields/programmes-by-theme/economics-and-global-markets",
+   "posted": false,
+   "published": "2026-11-27",
+   "relevance": 0,
+   "snippet": "Study economics and global markets in Europe holbobe Fri, 11/27/2026 - 11:44 Interested in understanding global markets and economic change? Erasmus Mundus economics programmes combine international study with training in quantitative analysis, economic policy, and global development. Programmes on this page QEM - Models and Methods of Quantitative Economics EGEI - Economics of Globalisation and European Integration EPOG-JM - Economic Policies for the Global Bifurcation GLOCAL - Global Markets, Local Creativities GLODEP - Global Development Policy Why choose Erasmus Mundus for public health an",
+   "source": "European Commission (Education)",
+   "tier": "official",
+   "title": "Study economics and global markets in Europe"
+  },
   "dd8cce0b1fd2e7b9": {
    "first_seen": "2026-11-20",
    "impact": 1,
@@ -4660,7 +4792,7 @@
    "first_seen": "2026-11-24",
    "impact": 1,
    "link": "https://www.edsurge.com/news/how-one-teacher-prep-program-made-its-technology-use-visible",
-   "posted": false,
+   "posted": true,
    "published": "2026-11-24",
    "relevance": 2,
    "snippet": "A faculty survey turned into a program-wide conversation — and a plan to align with the ISTE Standards.",
@@ -4763,6 +4895,18 @@
    "source": "EdSurge",
    "tier": "news",
    "title": "For Special Education Teachers, “Everydayness Is the Enemy”"
+  },
+  "e564f4a693e4f545": {
+   "first_seen": "2026-11-27",
+   "impact": 0,
+   "link": "https://education.ec.europa.eu/study-in-europe/programmes-and-fields/programmes-by-theme/european-politics-and-global-affairs",
+   "posted": false,
+   "published": "2026-11-27",
+   "relevance": 0,
+   "snippet": "Study European politics and global affairs in Europe holbobe Fri, 11/27/2026 - 09:00 Interested in European politics, migration and global affairs? Erasmus Mundus programmes combine international mobility with interdisciplinary study of societies, political change, globalisation and security. Programmes on this page MITRA – Transnational Migrations Euroculture - European Politics, Culture, and Society in a Global Context EPS - European Politics and Society: Václav Havel Joint Master Programme EMGS - European Master in Global Studies IMSISS - International Master in Security, Intelligence and S",
+   "source": "European Commission (Education)",
+   "tier": "official",
+   "title": "Study European politics and global affairs in Europe"
   },
   "e5cf4ac0d951c476": {
    "first_seen": "2026-11-19",
@@ -5366,6 +5510,6 @@
   }
  },
  "last_alert_date": "",
- "last_digest_date": "2026-11-26",
- "last_run_date": "2026-11-26"
+ "last_digest_date": "2026-11-27",
+ "last_run_date": "2026-11-27"
 }
