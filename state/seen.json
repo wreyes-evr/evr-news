@@ -1356,6 +1356,18 @@
    "tier": "news",
    "title": "STUDENT VOICE: Schools teach students what to learn, but rarely teach them how to learn"
   },
+  "420c68767aa3e86f": {
+   "first_seen": "2026-11-28",
+   "impact": 3,
+   "link": "https://www.gov.uk/government/news/curriculum-overhaul-to-put-reading-at-its-heart",
+   "posted": false,
+   "published": "2026-11-28",
+   "relevance": 2,
+   "snippet": "Dedicated time for reading for pleasure embedded across primary and secondary to capture a love of reading, with new statutory reading check in year 8",
+   "source": "DfE",
+   "tier": "official",
+   "title": "Curriculum overhaul to put reading at its heart"
+  },
   "424d89bf7d97dc2d": {
    "first_seen": "2026-11-19",
    "impact": 1,
@@ -2099,6 +2111,18 @@
    "source": "BBC Education",
    "tier": "news",
    "title": "Students vote to retain university campus' historic name"
+  },
+  "6662cda9e57fe2b6": {
+   "first_seen": "2026-11-28",
+   "impact": 2,
+   "link": "https://www.bbc.co.uk/news/articles/c65y1vp4ndqjo?at_medium=RSS&at_campaign=rss",
+   "posted": false,
+   "published": "2026-11-28",
+   "relevance": 2,
+   "snippet": "The government says its new cirriculum hopes to reverse declining literacy rates and combat \"mindless scrolling\".",
+   "source": "BBC Education",
+   "tier": "news",
+   "title": "Set time aside for children to read for pleasure, schools to be told"
   },
   "6687f7be62c34e4a": {
    "first_seen": "2026-11-20",
@@ -3492,6 +3516,18 @@
    "tier": "official",
    "title": "Official Statistics: Further education outcomes: 2023 to 2024"
   },
+  "a60eaf8b9306b66b": {
+   "first_seen": "2026-11-28",
+   "impact": 0,
+   "link": "https://www.gov.uk/government/news/artworks-from-government-buildings-to-transform-classrooms-and-hospital-spaces",
+   "posted": false,
+   "published": "2026-11-27",
+   "relevance": 0,
+   "snippet": "Artworks previously displayed in government buildings will be brought into the heart of local communities, giving more people the opportunity to experience and enjoy the nation's art collection",
+   "source": "GOV.UK (AI in education)",
+   "tier": "official",
+   "title": "Artworks from government buildings to transform classrooms and hospital spaces"
+  },
   "a76b7d0d9be973e4": {
    "first_seen": "2026-11-25",
    "impact": 1,
@@ -4007,6 +4043,18 @@
    "source": "DfE",
    "tier": "official",
    "title": "Statutory guidance: Children Act 1989: care planning, placement and case review"
+  },
+  "beef829f56efd6a2": {
+   "first_seen": "2026-11-28",
+   "impact": 1,
+   "link": "https://www.bbc.co.uk/news/articles/c699emngkkn5o?at_medium=RSS&at_campaign=rss",
+   "posted": false,
+   "published": "2026-11-26",
+   "relevance": 1,
+   "snippet": "Bangor University has announced savings of \"at least 15m\" would be made through voluntary redundancies.",
+   "source": "BBC Education",
+   "tier": "news",
+   "title": "University's £15m savings could be felt 'beyond the campus', union warns"
   },
   "befcbe7815992128": {
    "first_seen": "2026-11-24",
@@ -4739,6 +4787,18 @@
    "source": "BBC Education",
    "tier": "news",
    "title": "'Complete system reset' needed to get 440,000 young people into work, says major review"
+  },
+  "e083e370f28ea721": {
+   "first_seen": "2026-11-28",
+   "impact": 2,
+   "link": "https://www.bbc.co.uk/news/articles/c63rg45027z0o?at_medium=RSS&at_campaign=rss",
+   "posted": false,
+   "published": "2026-11-27",
+   "relevance": 1,
+   "snippet": "The union said the results reflect deep concern about the long-term sustainability of school leadership.",
+   "source": "BBC Education",
+   "tier": "news",
+   "title": "School leaders vote in favour of industrial action, says union"
   },
   "e09f08e91213e30d": {
    "first_seen": "2026-11-25",
@@ -5511,5 +5571,5 @@
  },
  "last_alert_date": "",
  "last_digest_date": "2026-11-27",
- "last_run_date": "2026-11-27"
+ "last_run_date": "2026-11-28"
 }
